@@ -1,0 +1,31 @@
+<recommendation>
+  <label>/ogc/recommendation/wfs/2</label>
+  <subject>user</subject>
+  <p>I recommend <em>this</em>.</p>
+  <object>
+    <p>This is the object of the recommendation:</p>
+    ...
+  </object>
+  <p>As for the measurement targets,</p>
+  <measurementtarget>
+    <p>The measurement target shall be measured as:</p>
+    <formula>
+      <stem type="AsciiMath">r/1 = 0</stem>
+    </formula>
+  </measurementtarget>
+  <verification>
+    <ol type="arabic">
+      <li>
+        <p>We take a measurement</p>
+      </li>
+      <li>
+        <p>The measurement is consistent with the formula above</p>
+        <ol type="alphabet">
+          <li>
+            <p>If the measurement is not consistent with the formula above, then the verification has failed</p>
+          </li>
+        </ol>
+      </li>
+    </ol>
+  </verification>
+</recommendation>

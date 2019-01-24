@@ -1,0 +1,10 @@
+[[openapi.yaml]]
+=== Generic OpenAPI definition
+
+[requirement,type="openapi",label=/openapi/3.0/]
+====
+include::openapi.yaml
+====
+
+
+

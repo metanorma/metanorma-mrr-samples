@@ -1,0 +1,104 @@
+=== Management oversight of information security
+
+==== General
+
+[requirement,type="text",label="/ss/584/2015/general/632"]
+====
+
+The Cloud Service Provider's management and board of directors shall be responsible for the following requirements and audit procedures.
+
+[subject]#The Cloud Service Provider's management and board of directors#
+[obligation]#shall#
+[object]#be responsible for the following requirements and audit procedures#
+
+====
+
+
+==== Level 1 requirements and audit procedures
+
+[requirement,type="text",label="/ss/584/2015/level/1"]
+====
+
+[subject]#The Cloud Service Provider's management and board of directors#
+[obligation]#shall#
+
+[object]
+--
+. Managing information security risks related to people, process, technology and governance.
+. Oversight of the effective implementation of the technology controls.
+. Oversight of risk management practices.
+--
+
+[verification]
+--
+. Determine that the responsibilities of management and board of directors in managing and overseeing information security risks are documented and communicated.
+. Inspect documents such as meeting minutes and committee charter to identify the participants involved in the meeting or committee, their respective job functions and the reporting relationship.
+. Determine whether the management and board of directors meet regularly, at an appropriate and monitored frequency.
+. Determine whether the information security function is headed by a Chief Information Security Officer (CISO) or similar function.
+--
+
+====
+
+
+==== Level 2 requirements and audit procedures
+
+[requirement,type="text",label="/ss/584/2015/level/2",import="/ss/584/2015/level/1"]
+====
+The requirements and audit procedures are the same as those in Level 1.
+
+[verification,import="/ss/584/2015/level/1"]
+--
+--
+====
+
+==== Level 3 requirements and audit procedures
+
+[requirement,type="text",label="/ss/584/2015/level/3",import="/ss/584/2015/level/2"]
+====
+
+The requirements are the same as those in Level 2.
+
+[verification,import="/ss/584/2015/level/2"]
+--
+The audit procedures are those in Level 1 and the following:
+
+. Verify risks have been reviewed, understood, and addressed (i.e. including a cost benefit analysis) by management and the board.
+--
+====
+
+
+
+[recommendation,label="/ogc/recommendation/wfs/2",subject="user"]
+====
+I recommend _this_.
+
+[object]
+--
+This is the object of the recommendation:
+
+|===
+|Object |Value
+
+|Mission | Accomplished
+|===
+--
+
+As for the measurement targets,
+
+[measurement-target]
+--
+The measurement target shall be measured as:
+
+[stem]
+++++
+r/1 = 0
+++++
+--
+
+[verification]
+--
+. We take a measurement
+. The measurement is consistent with the formula above
+.. If the measurement is not consistent with the formula above, then the verification has failed
+--
+====

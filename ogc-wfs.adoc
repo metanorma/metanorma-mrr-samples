@@ -1,0 +1,67 @@
+////
+Requirement 2
+/req/core/root-success
+
+A successful execution of the operation SHALL be reported as a response with a HTTP status code 200.
+
+The content of that response SHALL be based upon the OpenAPI 3.0 schema root.yaml and include at least links to the following resources:
+
+* /api (relation type ‘service’)
+* /conformance (relation type ‘conformance’)
+* /collections (relation type ‘data’)
+////
+
+[requirement,label="/req/core/root-success",subject="endpoint",obligation="shall"]
+====
+
+[description]
+A successful execution of the operation SHALL be reported as a response with a HTTP status code 200.
+
+[routine,run="CoreRoot"]
+----
+CoreRoot(success): HttpResponse
+if (success)
+  requirement(label: success-response)
+end
+----
+
+[requirement,label="success-response"]
+--
+
+[description]
+---
+The content of that response SHALL be based upon the provided OpenAPI 3.0 schema and include at least links to the following resources:
+
+* `/api` (relation type "service")
+* `/conformance` (relation type "conformance")
+* `/collections` (relation type "data")
+---
+
+[specification,type="oapi30"]
+======
+'/':
+  get:
+    responses:
+      '200':
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/root'
+            properties:
+              type: array
+              items:
+                $ref: '#/components/schemas/link'
+              match:
+                - href: '/api'
+                  rel: service
+                - href: '/conformance'
+                  rel: conformance
+                - href: '/collections'
+                  rel: data
+          text/html:
+            schema:
+              type: string
+======
+--
+
+====
