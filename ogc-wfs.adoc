@@ -11,13 +11,13 @@ The content of that response SHALL be based upon the OpenAPI 3.0 schema root.yam
 * /collections (relation type ‘data’)
 ////
 
-[requirement,label="/req/core/root-success",subject="endpoint",obligation="shall"]
+[requirement, label="/req/core/root-success", subject="endpoint", obligation="shall"]
 ====
 
 [description]
 A successful execution of the operation SHALL be reported as a response with a HTTP status code 200.
 
-[routine,run="CoreRoot"]
+[routine,lang="pseudo-fortress",run="CoreRoot"]
 ----
 CoreRoot(success): HttpResponse
 if (success)
@@ -25,7 +25,7 @@ if (success)
 end
 ----
 
-[requirement,label="success-response"]
+[requirement,label="/req/core/root-success/success-response"]
 --
 
 [description]
