@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<standard-document xmlns="http://riboseinc.com/isoxml">
+<bibdata type="article"> 
+   
+   
+   
+   
+  <language>en</language> 
+  <script>Latn</script> 
+  <status format="plain">published</status> 
+  <copyright> 
+    <from>2019</from> 
+  </copyright> 
+  <editorialgroup> 
+    <technical-committee/> 
+  </editorialgroup> 
+</bibdata>
+<sections> 
+  <requirement id="/req/geojson/content"><requirement id="_780df64c-2b58-4c28-a9b1-c3de6cf4d478"><description><dl id="_ad68a210-c3d1-44b6-8ae5-a87320eaae9b">    
+  <dt>response</dt>    
+  <dd>    
+    <p id="_9b91207d-28f7-4fcc-831b-c374fb6c2a59">200</p>    
+  </dd>    
+  <dt>media-type</dt>    
+  <dd>    
+    <p id="_dbfabfc9-ed82-4759-99a9-bf0b03b48982">application/geo+json</p>    
+  </dd>    
+</dl>   
+<p id="_a0ec60f5-e956-4d5a-80ac-cc00caf553e4">Every <tt>200</tt>-response with the media type <tt>application/geo+json</tt> SHALL be</p>   
+<ul id="_32e0a5de-b081-4d53-9726-b28e8b8b2e63">    
+  <li>    
+    <p id="_573bfb2a-951f-452b-a792-38ab8124c8f2">a <link target="https://tools.ietf.org/html/rfc7946#section-3.3">GeoJSON FeatureCollection Object</link> for feature collections, and</p>    
+  </li>    
+  <li>    
+    <p id="_14be87a2-39b5-4e87-b48c-0a2ca38fbed2">a <link target="https://tools.ietf.org/html/rfc7946#section-3.2">GeoJSON Feature Object</link> for features.</p>    
+  </li>    
+</ul></description></requirement><description>  
+<p id="_a5b21ab9-4c74-4057-b16b-0e8a459df5e4">The links specified in the requirements <xref target="requirement:&quot;/req/core/fc-links&quot;"/> and   
+<xref target="requirement:&quot;/req/core/f-links&quot;"/> SHALL be added in a extension property   
+(foreign member) with the name <tt>links</tt>.</p>  
+<p id="_b7086102-5134-40cf-9cfe-af7c7997ebfe">The schema of all responses with the media type <tt>application/json</tt> SHALL   
+conform with the JSON Schema specified for the resource in the requirements class   
+<xref target="rc_core">WFS 3.0 Core</xref>.</p></description></requirement> 
+</sections>
+</standard-document>

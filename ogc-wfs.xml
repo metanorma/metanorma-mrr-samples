@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<standard-document xmlns="http://riboseinc.com/isoxml">
+<bibdata type="article"> 
+   
+   
+   
+   
+  <language>en</language> 
+  <script>Latn</script> 
+  <status format="plain">published</status> 
+  <copyright> 
+    <from>2019</from> 
+  </copyright> 
+  <editorialgroup> 
+    <technical-committee/> 
+  </editorialgroup> 
+</bibdata>
+<sections> 
+  <requirement id="_836114de-06d7-480a-b356-3dccbe1cfc5f"><label>/req/core/root-success</label><subject>endpoint</subject><description><p id="_ef5d4682-d2af-4e16-9c7c-b3f8b5fce757">A successful execution of the operation SHALL be reported as a response with a HTTP status code 200.</p>  
+</description><verification exclude="false"><sourcecode lang="CoreRoot" id="_a8a5db5d-956d-4572-a18c-723e2bb76bd6">CoreRoot(success): HttpResponse   
+if (success)   
+  requirement(label: success-response)   
+end</sourcecode>   
+</verification>
+<import exclude="false"><sourcecode lang="CoreRoot" id="_6352647e-44a0-44b0-9f5d-a1cb9daa22ad">success-response()</sourcecode>   
+</import><description>  
+<p id="_e73741ec-d2bd-4272-acd7-657512e036cf">The content of that response SHALL be based upon the provided OpenAPI 3.0 schema and include at least links to the following resources:</p>  
+<ul id="_53529edc-2496-4420-a72f-dff18aaf7e3b">   
+  <li>   
+    <p id="_9bc3203a-e7c4-4466-aacf-1afd58a4b080"><tt>/api</tt> (relation type “service”)</p>   
+  </li>   
+  <li>   
+    <p id="_3413d170-8e34-4666-9416-ab8b3bf2dc98"><tt>/conformance</tt> (relation type “conformance”)</p>   
+  </li>   
+  <li>   
+    <p id="_30104048-53ce-4472-bb3b-6dd210c05fe6"><tt>/collections</tt> (relation type “data”)</p>   
+  </li>   
+</ul>  
+</description><specification exclude="false" type="oapi30"><sourcecode lang="yaml" id="_99d847d4-dd44-48ce-9271-0169330a3672">'/':   
+  get:   
+    responses:   
+      '200':   
+        content:   
+          application/json:   
+            schema:   
+              $ref: '#/components/schemas/root'   
+            properties:   
+              type: array   
+              items:   
+                $ref: '#/components/schemas/link'   
+              match:   
+                - href: '/api'   
+                  rel: service   
+                - href: '/conformance'   
+                  rel: conformance   
+                - href: '/collections'   
+                  rel: data   
+          text/html:   
+            schema:   
+              type: string</sourcecode>   
+</specification></requirement> 
+</sections>
+</standard-document>

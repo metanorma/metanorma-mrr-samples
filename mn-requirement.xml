@@ -1,31 +1,43 @@
-<recommendation>
+<recommendation id="_">
   <label>/ogc/recommendation/wfs/2</label>
   <subject>user</subject>
-  <p>I recommend <em>this</em>.</p>
-  <object>
-    <p>This is the object of the recommendation:</p>
-    ...
-  </object>
-  <p>As for the measurement targets,</p>
-  <measurementtarget>
-    <p>The measurement target shall be measured as:</p>
-    <formula>
+  <description>
+    <p id="_">I recommend <em>this</em>.</p>
+  </description>
+  <specification exclude="false" type="tabular">
+    <p id="_">This is the object of the recommendation:</p>
+    <table id="_">  
+      <tbody>    
+        <tr>      
+          <td align="left">Object</td>      
+          <td align="left">Value</td>    
+        </tr>    
+        <tr>      
+          <td align="left">Mission</td>      
+          <td align="left">Accomplished</td>    
+        </tr>  
+      </tbody>
+    </table>
+  </specification>
+  <description>
+    <p id="_">As for the measurement targets,</p>
+  </description>
+  <measurement-target exclude="false">
+    <p id="_">The measurement target shall be measured as:</p>
+    <formula id="_">  
       <stem type="AsciiMath">r/1 = 0</stem>
     </formula>
-  </measurementtarget>
-  <verification>
-    <ol type="arabic">
-      <li>
-        <p>We take a measurement</p>
-      </li>
-      <li>
-        <p>The measurement is consistent with the formula above</p>
-        <ol type="alphabet">
-          <li>
-            <p>If the measurement is not consistent with the formula above, then the verification has failed</p>
-          </li>
-        </ol>
-      </li>
-    </ol>
+  </measurement-target>
+  <verification exclude="false">
+    <p id="_">The following code will be run for verification:</p>
+    <sourcecode id="_">CoreRoot(success): HttpResponse
+      if (success)  
+      recommendation(label: success-response)
+      end
+    </sourcecode>
   </verification>
+  <import exclude="true">  
+    <sourcecode id="_">success-response()</sourcecode>
+  </import>
 </recommendation>
+

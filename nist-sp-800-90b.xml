@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<standard-document xmlns="http://riboseinc.com/isoxml">
+<bibdata type="article"> 
+   
+   
+   
+   
+  <language>en</language> 
+  <script>Latn</script> 
+  <status format="plain">published</status> 
+  <copyright> 
+    <from>2019</from> 
+  </copyright> 
+  <editorialgroup> 
+    <technical-committee/> 
+  </editorialgroup> 
+</bibdata>
+<sections> 
+  <requirement id="_614705f1-af21-4973-a3cd-fccc060f787c">
+<label>/iid-testing/permutation-test/</label><description>  
+  <dl id="_afe543d1-7ce2-49d1-991d-e3c2c257a293">   
+  <dt>input</dt>   
+  <dd>   
+    <p id="_02cc06ab-6f8b-40ec-a756-cd31fca38384">S = (s_1 , … , s_L)</p>   
+  </dd>   
+  <dt>output</dt>   
+  <dd>   
+    <p id="_110ac41c-84c0-4a9c-b3ce-a7d30b78f031">Decision on the IID assumption</p>   
+  </dd>   
+  <dt>steps</dt>   
+  <dd>   
+    <ol id="_d7a05401-9aec-4ec0-bdd9-564fc9395d6c" type="arabic">    
+  <li>    
+    <p id="_53d2b274-d8fd-491d-b8f4-304508d59b91">for (i in test_i)</p>    
+    <ol id="_4c2342a7-f4b8-4cb2-9b94-03c165c9ed87" type="alphabet">     
+  <li>     
+    <p id="_db8aa04d-e241-41b2-bc3e-b680b9e9c698">C_(i, 0) ← 0, C_(i, 1) ← 0</p>     
+  </li>     
+  <li>     
+    <p id="_7e2ddb3f-ad1a-4c14-aeeb-986d3f0baba8">Calculate the test statistic <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>T</mi><mi>i</mi></msub></math></stem> on <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>S</mi></math></stem>.</p>     
+  </li>     
+</ol>    
+  </li>    
+  <li>    
+    <p id="_646f47c3-9470-42d5-8abd-15bc2145f70d">For <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>j</mi><mo>=</mo><mn>1</mn></math></stem> to 10 000</p>    
+    <ol id="_1b96f305-531f-418e-9cf6-b237135e7e2e" type="alphabet">     
+  <li>     
+    <p id="_31148f8c-2a2e-40af-9a0e-acf4dd2a4a31">Permute <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>S</mi></math></stem> using the Fisher-Yates shuffle algorithm.</p>     
+  </li>     
+  <li>     
+    <p id="_80b61d65-1b89-4826-90a9-a51520bd9982">For each test <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>i</mi></math></stem></p>     
+    <ol id="_0bd36eca-f220-4dd0-ad32-35ec6d607444" type="roman">      
+  <li>      
+    <p id="_c728fc63-02a1-42d3-989f-ad4c621596b5">Calculate the test statistic <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>T</mi></math></stem> on the permuted data.</p>      
+  </li>      
+  <li>      
+    <p id="_7b284ad4-6f07-4205-a3cd-64a86a8eb951">If (<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>T</mi><mi>&amp;</mi><mo>&gt;</mo><mi>;</mi><msub><mi>T</mi><mi>i</mi></msub></math></stem>), increment <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>C</mi><mrow><mi>i</mi><mi>,</mi><mn>0</mn></mrow></msub></math></stem>. If (<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>T</mi><mo>=</mo><msub><mi>T</mi><mi>i</mi></msub></math></stem>), increment <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>C</mi><mrow><mi>i</mi><mi>,</mi><mn>1</mn></mrow></msub></math></stem>.</p>      
+  </li>      
+</ol>     
+  </li>     
+</ol>    
+  </li>    
+  <li>    
+    <p id="_88ad0004-c518-4fc4-8e45-407cece1c1de">If ( (<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>C</mi><mrow><mi>i</mi><mi>,</mi><mn>0</mn></mrow></msub><mo>+</mo><msub><mi>C</mi><mrow><mi>i</mi><mi>,</mi><mn>1</mn></mrow></msub><mi>&amp;</mi><mo>&lt;</mo><mi>;</mi><mo>=</mo><mn>5</mn></math></stem>) or (<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>C</mi><mrow><mi>i</mi><mi>,</mi><mn>0</mn></mrow></msub><mi>&amp;</mi><mo>&gt;</mo><mi>;</mi><mo>=</mo><mn>9995</mn></math></stem>) ) for any <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>i</mi></math></stem>, reject the IID assumption; else, assume that the noise source outputs are IID.</p>    
+  </li>    
+</ol>   
+  </dd>   
+</dl>  
+</description></requirement> 
+</sections>
+</standard-document>

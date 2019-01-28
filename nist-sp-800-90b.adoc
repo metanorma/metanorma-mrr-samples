@@ -1,7 +1,7 @@
 
 
 .Generic Structure for Permutation Testing
-[requirement,type="pseudocode","/iid-testing/permutation-test/"]
+[requirement,type="pseudocode",label="/iid-testing/permutation-test/"]
 ====
 input:: $$S = (s_1 , ... , s_L)$$
 
