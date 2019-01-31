@@ -3,15 +3,17 @@
 .Generic Structure for Permutation Testing
 [requirement,type="pseudocode",label="/iid-testing/permutation-test/"]
 ====
-input:: $$S = (s_1 , ... , s_L)$$
+[description]
+--
+Input:: stem:[S = (s_1 , ... , s_L)]
 
-output:: Decision on the IID assumption
+Output:: Decision on the IID assumption
 
-steps::
+Steps::
 
-. for (i in test_i)
+. For each test stem:[i]
 
-.. C_(i, 0) <- 0, C_(i, 1) <- 0
+.. Assign the counters stem:[C_(i, 0)] and stem:[C_(i, 1)] to zero.
 
 .. Calculate the test statistic stem:[T_(i)] on stem:[S].
 
@@ -24,4 +26,41 @@ steps::
 ... If (stem:[T > T_(i)]), increment stem:[C_(i, 0)]. If (stem:[T = T_(i)]), increment stem:[C_(i, 1)].
 
 . If ( (stem:[C_(i, 0) + C_(i, 1) <= 5]) or (stem:[C_(i, 0) >= 9995]) ) for any stem:[i], reject the IID assumption; else, assume that the noise source outputs are IID.
+
+[verification,type="pseudo-fortress"]
+--
+[source,lang="DecideIID"]
+----
+import FisherYatesShuffle, TestStatistic
+
+DecideIID(S: ZZ[], L: RR) : Boolean =
+  for i <- 1 : L do
+    C[i, 0] <- 0, C[i, 1] <- 0
+    T[i] <- TestStatistic(S)
+  end
+
+  for j <- 1 : 10000 do
+    S' <- FisherYatesShuffle(S)
+    for i <- 1 : L do
+      T <- TestStatistic(S')
+
+      if T' > T'[i]
+        C[i, 0] <- C[i, 0] + 1
+      end
+
+      if T' == T[i]
+        C[i, 1] <- C[i, 1] + 1
+      end
+    end
+  end
+
+  for i <- 1 : L do
+    if (C[i, 0] + C[i, 1] <= 5) or (C[i, 0] >= 9995)
+      return false
+    end
+  end
+  return true
+----
+--
+
 ====

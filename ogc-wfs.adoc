@@ -11,7 +11,7 @@ The content of that response SHALL be based upon the OpenAPI 3.0 schema root.yam
 * /collections (relation type ‘data’)
 ////
 
-[requirement,label="/req/core/root-success",subject="endpoint",obligation="shall"]
+[requirement, label="/req/core/root-success", subject="endpoint", obligation="shall"]
 ====
 
 A successful execution of the operation SHALL be reported as a response with a HTTP status code 200.
