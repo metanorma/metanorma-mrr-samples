@@ -18,90 +18,82 @@
 <sections> 
   <clause id="_management_oversight_of_information_security" inline-header="false" obligation="normative"><title>Management oversight of information security</title><clause id="_general" inline-header="false" obligation="normative">   
   <title>General</title>   
-  <requirement id="_e7709f4a-c09e-48e8-ab5d-6364c22e8416"><label>/ss/584/2015/general/632</label><subject>The Cloud Service Provider’s management and board of directors</subject><description><p id="_fcd12a9a-714c-4287-bc8a-d38ecd77b057">The Cloud Service Provider’s management and board of directors shall be responsible for the following requirements and audit procedures.</p>    
-</description><specification exclude="true">     
-  <p id="_7f7cb2f5-6380-455b-8119-7468b23bc024">be responsible for the following requirements and audit procedures</p>     
-</specification></requirement>   
+  <example id="_53f1a8e8-b6e5-4f05-be42-1a0d92534617"><p id="_aa4be700-8472-428d-99e1-4ffee5cb6f1d">The Cloud Service Provider’s management and board of directors shall be responsible for the following requirements and audit procedures.</p>    
+<p id="_e30f471e-898d-4b51-a65f-b823097aff3f">be responsible for the following requirements and audit procedures</p></example>   
 </clause>  
 <clause id="_level_1_requirements_and_audit_procedures" inline-header="false" obligation="normative">   
   <title>Level 1 requirements and audit procedures</title>   
-  <requirement id="_74b85d2e-22a4-434c-8d9f-974f28c7ead8"><label>/ss/584/2015/level/1</label><subject>The Cloud Service Provider’s management and board of directors</subject><specification exclude="false">     
-  <ol id="_594dca19-9b85-4a7f-9816-6e94d518c6c5" type="arabic">      
-  <li>      
-    <p id="_65e82be8-78b5-4b1a-9d1f-e8063e6fe093">Managing information security risks related to people, process, technology and governance.</p>      
-  </li>      
-  <li>      
-    <p id="_15b8c4ea-1c7c-4a33-9854-29054c8d48c2">Oversight of the effective implementation of the technology controls.</p>      
-  </li>      
-  <li>      
-    <p id="_5d4bd3ca-f2e3-47ed-8a1c-624c87fc4d14">Oversight of risk management practices.</p>      
-  </li>      
-</ol>     
-</specification>
-<verification exclude="false">     
-  <ol id="_e30fec9f-1677-42e8-a17e-b3325e500d4b" type="arabic">      
-  <li>      
-    <p id="_60724da8-e0b3-4114-80c4-3ee29dfb51cb">Determine that the responsibilities of management and board of directors in managing and overseeing information security risks are documented and communicated.</p>      
-  </li>      
-  <li>      
-    <p id="_fdbe62aa-dc54-4c64-b9ca-457463a07077">Inspect documents such as meeting minutes and committee charter to identify the participants involved in the meeting or committee, their respective job functions and the reporting relationship.</p>      
-  </li>      
-  <li>      
-    <p id="_8d345b50-8d66-4e49-81e0-bef8443d143c">Determine whether the management and board of directors meet regularly, at an appropriate and monitored frequency.</p>      
-  </li>      
-  <li>      
-    <p id="_74e47a33-a680-466a-a0fc-54a8ef96cb09">Determine whether the information security function is headed by a Chief Information Security Officer (CISO) or similar function.</p>      
-  </li>      
-</ol>     
-</verification></requirement>   
+  <example id="_2be6e2a8-e78d-4e73-a73c-127ce87b4546"><ol id="_fe6a6085-437e-438c-8836-6e6a178edf88" type="arabic">     
+  <li>     
+    <p id="_088c2e13-6340-4a42-83f1-fdb1e93be56c">Managing information security risks related to people, process, technology and governance.</p>     
+  </li>     
+  <li>     
+    <p id="_0afe1608-c876-49f3-b869-5ec5b54edcce">Oversight of the effective implementation of the technology controls.</p>     
+  </li>     
+  <li>     
+    <p id="_045da9ef-6bbb-4cb7-9ded-8dbe51fe365f">Oversight of risk management practices.</p>     
+  </li>     
+</ol>    
+<ol id="_2c7ef605-d31b-482d-a305-b26c43b5b8c2" type="arabic">     
+  <li>     
+    <p id="_aa79c93c-30a0-458f-a1aa-7dc7021a9b47">Determine that the responsibilities of management and board of directors in managing and overseeing information security risks are documented and communicated.</p>     
+  </li>     
+  <li>     
+    <p id="_af5b89b4-8177-47db-8ec0-6c520aa06222">Inspect documents such as meeting minutes and committee charter to identify the participants involved in the meeting or committee, their respective job functions and the reporting relationship.</p>     
+  </li>     
+  <li>     
+    <p id="_93d6feb1-a4fc-4561-a7bb-9f2885741a7d">Determine whether the management and board of directors meet regularly, at an appropriate and monitored frequency.</p>     
+  </li>     
+  <li>     
+    <p id="_e388c38e-94f2-4295-b810-1c000e8c20e8">Determine whether the information security function is headed by a Chief Information Security Officer (CISO) or similar function.</p>     
+  </li>     
+</ol></example>   
 </clause>  
 <clause id="_level_2_requirements_and_audit_procedures" inline-header="false" obligation="normative">   
   <title>Level 2 requirements and audit procedures</title>   
-  <requirement id="_023520e4-0b2c-41e5-9745-d8fc5b89a489"><label>/ss/584/2015/level/2</label><inherit>/ss/584/2015/level/1</inherit><description><p id="_29b9c8df-097c-4c78-8345-4381fd1d4872">The requirements and audit procedures are the same as those in Level 1.</p>    
-</description><verification exclude="false"/></requirement>   
+  <example id="_841a79ac-2af5-4051-a39a-56b1d899bf93"><p id="_c4ad5117-8a37-4ea3-9ed5-4de5b9a1fb93">The requirements and audit procedures are the same as those in Level 1.</p>    
+</example>   
 </clause>  
-<clause id="_level_3_requirements_and_audit_procedures" inline-header="false" obligation="normative"><title>Level 3 requirements and audit procedures</title><requirement id="_3e17b9a5-d5b2-470b-98d1-198c4495c225"><label>/ss/584/2015/level/3</label><inherit>/ss/584/2015/level/2</inherit><description><p id="_3dba502d-d64f-424a-bf36-eeefcb92f99e">The requirements are the same as those in Level 2.</p>    
-</description><verification exclude="false"><p id="_9972b28c-395a-44ba-9411-9e977feb8238">The audit procedures are those in Level 1 and the following:</p>     
-<ol id="_f0a32247-490f-4747-a85b-2799247590e9" type="arabic">      
+<clause id="_level_3_requirements_and_audit_procedures" inline-header="false" obligation="normative"><title>Level 3 requirements and audit procedures</title><example id="_9a3c5bc1-24cf-4faf-9167-aab0916de4f4"><p id="_5f45ba58-568a-4427-9107-309ec1eff0ac">The requirements are the same as those in Level 2.</p>    
+<p id="_3f4b6df8-29fb-4322-bb7b-e2665f341a2b">The audit procedures are those in Level 1 and the following:</p>    
+<ol id="_615db240-4126-4c9f-ae88-ee510d88f14f" type="arabic">     
+  <li>     
+    <p id="_ecae93b8-d96f-4f85-8a3f-8a046ff1c49e">Verify risks have been reviewed, understood, and addressed (i.e. including a cost benefit analysis) by management and the board.</p>     
+  </li>     
+</ol></example>   
+<example id="_26d822a5-42b9-4e5c-ad15-17b34918c9e1"><p id="_3518cdf2-ea15-4b77-9309-22d3b52939c9">I recommend <em>this</em>.</p>    
+<p id="_5f7ba3c0-839e-49fe-b54e-6d669b965860">This is the object of the recommendation:</p>    
+<table id="_cc7453f1-d822-4be4-980b-74dd0fbd82d0">     
+  <thead>     
+    <tr>     
+      <th align="left">Object</th>     
+      <th align="left">Value</th>     
+    </tr>     
+  </thead>     
+  <tbody>     
+    <tr>     
+      <td align="left">Mission</td>     
+      <td align="left">Accomplished</td>     
+    </tr>     
+  </tbody>     
+</table>    
+<p id="_2516b994-98a7-4253-8b3f-49d9b2cea5b0">As for the measurement targets,</p>    
+<p id="_cc311052-6d5e-43e3-afe2-07d5ac2b5d7c">The measurement target shall be measured as:</p>    
+<formula id="_14249300-ed40-432f-95cc-499ca31120ae">     
+  <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mi>r</mi><mn>1</mn></mfrac><mo>=</mo><mn>0</mn></math></stem>     
+</formula>    
+<ol id="_ef313e9e-cd38-4f33-8c81-5b8a7a31ac18" type="arabic">     
+  <li>     
+    <p id="_4042ab66-7350-4e10-98c0-fae5becfbd14">We take a measurement</p>     
+  </li>     
+  <li>     
+    <p id="_b41225bb-e4d8-4e0f-b2f3-1242eae6417b">The measurement is consistent with the formula above</p>     
+    <ol id="_48a5bd1b-6478-41d8-8ec5-45e4d30df80f" type="alphabet">      
   <li>      
-    <p id="_f4d12fec-a6f1-42c3-98f7-38872a6d8615">Verify risks have been reviewed, understood, and addressed (i.e. including a cost benefit analysis) by management and the board.</p>      
-  </li>      
-</ol></verification></requirement>   
-<recommendation id="_5e05e62e-347f-4e32-9fbe-feb3d96088e3"><label>/ogc/recommendation/wfs/2</label><subject>user</subject><description><p id="_62af8f2a-c0ad-4f19-b774-97baddf47dfb">I recommend <em>this</em>.</p>    
-</description><specification exclude="false"><p id="_b22050bd-2bdc-43f8-8dea-2c070a55caa9">This is the object of the recommendation:</p>     
-<table id="_7114c12f-1b0d-422c-9d88-d25319574fad">      
-  <thead>      
-    <tr>      
-      <th align="left">Object</th>      
-      <th align="left">Value</th>      
-    </tr>      
-  </thead>      
-  <tbody>      
-    <tr>      
-      <td align="left">Mission</td>      
-      <td align="left">Accomplished</td>      
-    </tr>      
-  </tbody>      
-</table></specification><description>    
-<p id="_8cbaf175-be65-47e9-a4e0-f5a53332acd1">As for the measurement targets,</p>    
-</description><measurement-target exclude="false"><p id="_8dd3f69f-e7d6-41fe-acea-958c41fd6b36">The measurement target shall be measured as:</p>     
-<formula id="_9ddacb79-9e12-4775-a0df-3d19e987a9ef">      
-  <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mi>r</mi><mn>1</mn></mfrac><mo>=</mo><mn>0</mn></math></stem>      
-</formula></measurement-target>
-<verification exclude="false">     
-  <ol id="_3c1c1a72-8ab1-4e34-8371-474d03f2a34a" type="arabic">      
-  <li>      
-    <p id="_6f207016-d481-4ea8-994c-d19844ccbe0d">We take a measurement</p>      
-  </li>      
-  <li>      
-    <p id="_8aa8b00c-1cb9-4381-ba98-69d9abd66a4d">The measurement is consistent with the formula above</p>      
-    <ol id="_6afc3de9-46f9-4c60-b2b4-daf29d39c2c7" type="alphabet">       
-  <li>       
-    <p id="_d0f5bf52-119f-4fb0-ad9e-cdd52e1e5c87">If the measurement is not consistent with the formula above, then the verification has failed</p>       
-  </li>       
-</ol>      
+    <p id="_31973c96-833f-442f-b670-1f7e343c18a4">If the measurement is not consistent with the formula above, then the verification has failed</p>      
   </li>      
 </ol>     
-</verification></recommendation></clause></clause> 
+  </li>     
+</ol></example></clause></clause> 
 </sections>
 </standard-document>

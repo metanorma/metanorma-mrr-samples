@@ -16,48 +16,48 @@
   </editorialgroup> 
 </bibdata>
 <sections> 
-  <requirement id="_836114de-06d7-480a-b356-3dccbe1cfc5f"><label>/req/core/root-success</label><subject>endpoint</subject><description><p id="_ef5d4682-d2af-4e16-9c7c-b3f8b5fce757">A successful execution of the operation SHALL be reported as a response with a HTTP status code 200.</p>  
-</description><verification exclude="false"><sourcecode lang="CoreRoot" id="_a8a5db5d-956d-4572-a18c-723e2bb76bd6">CoreRoot(success): HttpResponse   
-if (success)   
-  requirement(label: success-response)   
-end</sourcecode>   
-</verification>
-<import exclude="false"><sourcecode lang="CoreRoot" id="_6352647e-44a0-44b0-9f5d-a1cb9daa22ad">success-response()</sourcecode>   
-</import><description>  
-<p id="_e73741ec-d2bd-4272-acd7-657512e036cf">The content of that response SHALL be based upon the provided OpenAPI 3.0 schema and include at least links to the following resources:</p>  
-<ul id="_53529edc-2496-4420-a72f-dff18aaf7e3b">   
+  <example id="_09fa855c-a905-44c3-9d55-9c7c2d03f309"><p id="_7279dbf0-0d9a-4c00-8a1d-8dbe126b070e">A successful execution of the operation SHALL be reported as a response with a HTTP status code 200.</p>  
+<sourcecode lang="CoreRoot" id="_2ba2a8a9-4c44-47f2-b88b-cb507ad1981f">CoreRoot(success): HttpResponse  
+if (success)  
+  requirement(label: success-response)  
+end</sourcecode>  
+  
+<sourcecode lang="CoreRoot" id="_9bfdf936-8ce8-45c7-8759-5363af6c984e">success-response()</sourcecode>  
+  
+<p id="_fb55fee1-9139-460a-8cd4-7724d5c0c205">The content of that response SHALL be based upon the provided OpenAPI 3.0 schema and include at least links to the following resources:</p>  
+<ul id="_6fae9b5c-ef5d-45fe-b753-3eb83243e067">   
   <li>   
-    <p id="_9bc3203a-e7c4-4466-aacf-1afd58a4b080"><tt>/api</tt> (relation type “service”)</p>   
+    <p id="_214a9c4e-ff1e-4a42-8f80-dbd4dcb27fd9"><tt>/api</tt> (relation type “service”)</p>   
   </li>   
   <li>   
-    <p id="_3413d170-8e34-4666-9416-ab8b3bf2dc98"><tt>/conformance</tt> (relation type “conformance”)</p>   
+    <p id="_9be3752c-d7f7-4448-aabe-d6700491a3e7"><tt>/conformance</tt> (relation type “conformance”)</p>   
   </li>   
   <li>   
-    <p id="_30104048-53ce-4472-bb3b-6dd210c05fe6"><tt>/collections</tt> (relation type “data”)</p>   
+    <p id="_ba66785a-da96-44ed-9edc-7b2ccd585d17"><tt>/collections</tt> (relation type “data”)</p>   
   </li>   
 </ul>  
-</description><specification exclude="false" type="oapi30"><sourcecode lang="yaml" id="_99d847d4-dd44-48ce-9271-0169330a3672">'/':   
-  get:   
-    responses:   
-      '200':   
-        content:   
-          application/json:   
-            schema:   
-              $ref: '#/components/schemas/root'   
-            properties:   
-              type: array   
-              items:   
-                $ref: '#/components/schemas/link'   
-              match:   
-                - href: '/api'   
-                  rel: service   
-                - href: '/conformance'   
-                  rel: conformance   
-                - href: '/collections'   
-                  rel: data   
-          text/html:   
-            schema:   
-              type: string</sourcecode>   
-</specification></requirement> 
+<sourcecode lang="yaml" id="_818ff5af-ac8b-474f-9e56-f1645a28348d">'/':  
+  get:  
+    responses:  
+      '200':  
+        content:  
+          application/json:  
+            schema:  
+              $ref: '#/components/schemas/root'  
+            properties:  
+              type: array  
+              items:  
+                $ref: '#/components/schemas/link'  
+              match:  
+                - href: '/api'  
+                  rel: service  
+                - href: '/conformance'  
+                  rel: conformance  
+                - href: '/collections'  
+                  rel: data  
+          text/html:  
+            schema:  
+              type: string</sourcecode>  
+</example> 
 </sections>
 </standard-document>

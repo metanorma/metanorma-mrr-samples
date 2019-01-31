@@ -16,56 +16,86 @@
   </editorialgroup> 
 </bibdata>
 <sections> 
-  <requirement id="_614705f1-af21-4973-a3cd-fccc060f787c">
-<label>/iid-testing/permutation-test/</label><description>  
-  <dl id="_afe543d1-7ce2-49d1-991d-e3c2c257a293">   
-  <dt>input</dt>   
+  <example id="_0ab00513-95f2-46f5-a4ba-34ffdd95edb7"><dl id="_38fe7264-9273-4472-a4fb-e0cadf8cf357">   
+  <dt>Input</dt>   
   <dd>   
-    <p id="_02cc06ab-6f8b-40ec-a756-cd31fca38384">S = (s_1 , … , s_L)</p>   
+    <p id="_e30da783-f2c1-4215-be5c-48ba386559ff">   
+      <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>S</mi><mo>=</mo><mrow><mo>(</mo><msub><mi>s</mi><mn>1</mn></msub><mi>,</mi><mo>…</mo><mi>,</mi><msub><mi>s</mi><mi>L</mi></msub><mo>)</mo></mrow></math></stem>   
+    </p>   
   </dd>   
-  <dt>output</dt>   
+  <dt>Output</dt>   
   <dd>   
-    <p id="_110ac41c-84c0-4a9c-b3ce-a7d30b78f031">Decision on the IID assumption</p>   
+    <p id="_a5ba9211-c635-41b4-b7eb-2efa18ca6513">Decision on the IID assumption</p>   
   </dd>   
-  <dt>steps</dt>   
+  <dt>Steps</dt>   
   <dd>   
-    <ol id="_d7a05401-9aec-4ec0-bdd9-564fc9395d6c" type="arabic">    
+    <ol id="_31a02bfe-7d99-4f31-acec-cbb32308aab8" type="arabic">    
   <li>    
-    <p id="_53d2b274-d8fd-491d-b8f4-304508d59b91">for (i in test_i)</p>    
-    <ol id="_4c2342a7-f4b8-4cb2-9b94-03c165c9ed87" type="alphabet">     
+    <p id="_d5dcda4f-dad5-474f-b84f-c98d27d3fb53">For each test <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>i</mi></math></stem></p>    
+    <ol id="_a5409cdb-1755-4ae9-bcd7-c9f8658d2655" type="alphabet">     
   <li>     
-    <p id="_db8aa04d-e241-41b2-bc3e-b680b9e9c698">C_(i, 0) ← 0, C_(i, 1) ← 0</p>     
+    <p id="_1cc0ba97-f156-4912-ad32-14dba7355aef">Assign the counters <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>C</mi><mrow><mi>i</mi><mi>,</mi><mn>0</mn></mrow></msub></math></stem> and <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>C</mi><mrow><mi>i</mi><mi>,</mi><mn>1</mn></mrow></msub></math></stem> to zero.</p>     
   </li>     
   <li>     
-    <p id="_7e2ddb3f-ad1a-4c14-aeeb-986d3f0baba8">Calculate the test statistic <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>T</mi><mi>i</mi></msub></math></stem> on <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>S</mi></math></stem>.</p>     
+    <p id="_952beb0e-83cc-4710-b410-7865da1f6206">Calculate the test statistic <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>T</mi><mi>i</mi></msub></math></stem> on <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>S</mi></math></stem>.</p>     
   </li>     
 </ol>    
   </li>    
   <li>    
-    <p id="_646f47c3-9470-42d5-8abd-15bc2145f70d">For <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>j</mi><mo>=</mo><mn>1</mn></math></stem> to 10 000</p>    
-    <ol id="_1b96f305-531f-418e-9cf6-b237135e7e2e" type="alphabet">     
+    <p id="_796c0b71-30e7-4a95-a286-5febe5aa0147">For <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>j</mi><mo>=</mo><mn>1</mn></math></stem> to 10 000</p>    
+    <ol id="_8d2e0570-0439-4033-ba59-f3871c6c9ec6" type="alphabet">     
   <li>     
-    <p id="_31148f8c-2a2e-40af-9a0e-acf4dd2a4a31">Permute <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>S</mi></math></stem> using the Fisher-Yates shuffle algorithm.</p>     
+    <p id="_8b45a1b0-66c9-4dc0-8c98-03f142d1d48c">Permute <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>S</mi></math></stem> using the Fisher-Yates shuffle algorithm.</p>     
   </li>     
   <li>     
-    <p id="_80b61d65-1b89-4826-90a9-a51520bd9982">For each test <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>i</mi></math></stem></p>     
-    <ol id="_0bd36eca-f220-4dd0-ad32-35ec6d607444" type="roman">      
+    <p id="_326b0bf1-61ce-485a-b631-63afea1a90dd">For each test <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>i</mi></math></stem></p>     
+    <ol id="_ab263834-ef84-49d9-83ed-0a20b5842748" type="roman">      
   <li>      
-    <p id="_c728fc63-02a1-42d3-989f-ad4c621596b5">Calculate the test statistic <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>T</mi></math></stem> on the permuted data.</p>      
+    <p id="_90a60944-fbbd-4c49-8b3d-69abbb352b6a">Calculate the test statistic <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>T</mi></math></stem> on the permuted data.</p>      
   </li>      
   <li>      
-    <p id="_7b284ad4-6f07-4205-a3cd-64a86a8eb951">If (<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>T</mi><mi>&amp;</mi><mo>&gt;</mo><mi>;</mi><msub><mi>T</mi><mi>i</mi></msub></math></stem>), increment <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>C</mi><mrow><mi>i</mi><mi>,</mi><mn>0</mn></mrow></msub></math></stem>. If (<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>T</mi><mo>=</mo><msub><mi>T</mi><mi>i</mi></msub></math></stem>), increment <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>C</mi><mrow><mi>i</mi><mi>,</mi><mn>1</mn></mrow></msub></math></stem>.</p>      
+    <p id="_f7fde62c-ba3e-4f14-b3bb-c989652e2223">If (<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>T</mi><mi>&amp;</mi><mo>&gt;</mo><mi>;</mi><msub><mi>T</mi><mi>i</mi></msub></math></stem>), increment <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>C</mi><mrow><mi>i</mi><mi>,</mi><mn>0</mn></mrow></msub></math></stem>. If (<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>T</mi><mo>=</mo><msub><mi>T</mi><mi>i</mi></msub></math></stem>), increment <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>C</mi><mrow><mi>i</mi><mi>,</mi><mn>1</mn></mrow></msub></math></stem>.</p>      
   </li>      
 </ol>     
   </li>     
 </ol>    
   </li>    
   <li>    
-    <p id="_88ad0004-c518-4fc4-8e45-407cece1c1de">If ( (<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>C</mi><mrow><mi>i</mi><mi>,</mi><mn>0</mn></mrow></msub><mo>+</mo><msub><mi>C</mi><mrow><mi>i</mi><mi>,</mi><mn>1</mn></mrow></msub><mi>&amp;</mi><mo>&lt;</mo><mi>;</mi><mo>=</mo><mn>5</mn></math></stem>) or (<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>C</mi><mrow><mi>i</mi><mi>,</mi><mn>0</mn></mrow></msub><mi>&amp;</mi><mo>&gt;</mo><mi>;</mi><mo>=</mo><mn>9995</mn></math></stem>) ) for any <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>i</mi></math></stem>, reject the IID assumption; else, assume that the noise source outputs are IID.</p>    
+    <p id="_7034eec5-5e17-40dd-8a34-b84a3fe02831">If ( (<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>C</mi><mrow><mi>i</mi><mi>,</mi><mn>0</mn></mrow></msub><mo>+</mo><msub><mi>C</mi><mrow><mi>i</mi><mi>,</mi><mn>1</mn></mrow></msub><mi>&amp;</mi><mo>&lt;</mo><mi>;</mi><mo>=</mo><mn>5</mn></math></stem>) or (<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>C</mi><mrow><mi>i</mi><mi>,</mi><mn>0</mn></mrow></msub><mi>&amp;</mi><mo>&gt;</mo><mi>;</mi><mo>=</mo><mn>9995</mn></math></stem>) ) for any <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>i</mi></math></stem>, reject the IID assumption; else, assume that the noise source outputs are IID.</p>    
   </li>    
 </ol>   
   </dd>   
 </dl>  
-</description></requirement> 
+<sourcecode id="_0bc25989-9584-450b-91b6-feab15eb4ba8">import FisherYatesShuffle, TestStatistic  
+  
+DecideIID(S: ZZ[], L: RR) : Boolean =  
+  for i &lt;- 1 : L do  
+    C[i, 0] &lt;- 0, C[i, 1] &lt;- 0  
+    T[i] &lt;- TestStatistic(S)  
+  end  
+  
+  for j &lt;- 1 : 10000 do  
+    S' &lt;- FisherYatesShuffle(S)  
+    for i &lt;- 1 : L do  
+      T &lt;- TestStatistic(S')  
+  
+      if T' &gt; T'[i]  
+        C[i, 0] &lt;- C[i, 0] + 1  
+      end  
+  
+      if T' == T[i]  
+        C[i, 1] &lt;- C[i, 1] + 1  
+      end  
+    end  
+  end  
+  
+  for i &lt;- 1 : L do  
+    if (C[i, 0] + C[i, 1] &lt;= 5) or (C[i, 0] &gt;= 9995)  
+      return false  
+    end  
+  end  
+  return true</sourcecode>  
+  
+</example> 
 </sections>
 </standard-document>
