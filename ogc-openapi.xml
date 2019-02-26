@@ -18,9 +18,9 @@
 <sections> 
   <clause id="openapi.yaml" inline-header="false" obligation="normative">  
   <title>Generic OpenAPI definition</title>  
-  <requirement id="_f4cc87ee-b943-4c04-b367-ab8f8a14b8ab">
+  <requirement id="_9b85fbfc-2616-46e2-bf79-0602c27db64a">
 <label>/openapi/3.0/</label>
-<specification exclude="false"><sourcecode lang="yaml" id="_acf5b8c0-a8c2-493a-b371-c7dc941aa1f6">openapi: 3.0.1    
+<specification exclude="false"><sourcecode lang="yaml" id="_8d505205-fc1d-4d9a-aa52-fa92db0d3fa7">openapi: 3.0.1    
 info:    
   title: A sample API conforming to the OGC Web Feature Service standard    
   version: 0.0.1    
