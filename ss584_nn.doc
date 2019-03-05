@@ -1,7 +1,7 @@
 MIME-Version: 1.0
-Content-Type: multipart/related; boundary="----=_NextPart_3ffd95bf.91bc.4a6e"
+Content-Type: multipart/related; boundary="----=_NextPart_271b0a81.e6b0.42ee"
 
-------=_NextPart_3ffd95bf.91bc.4a6e
+------=_NextPart_271b0a81.e6b0.42ee
 Content-Location: file:///C:/Doc/ss584_nn.htm
 Content-Type: text/html; charset="utf-8"
 
@@ -1041,113 +1041,88 @@ br.pagebreak
         <h1>1.<span style="mso-tab-count:1">&#xA0; </span>Management oversight of information security</h1>
         <div><a name="_general" id="_general"></a><h2>1.1. General</h2>
 
-  <para><b role="strong">&lt;requirement id="_d648cafb-db39-4d35-b06c-d87cd6d70248"&gt;
-  &lt;label&gt;/ss/584/2015/general/632&lt;/label&gt;
-  &lt;subject&gt;The Cloud Service Provider&#x2019;s management and board of directors&lt;/subject&gt;
-  &lt;description&gt;&lt;p id="_0ec60a0b-214e-4053-b92c-d24d9a307801"&gt;The Cloud Service Provider&#x2019;s management and board of directors shall be responsible for the following requirements and audit procedures.&lt;/p&gt;
-&lt;/description&gt;
-  &lt;specification exclude="true"&gt;
-  &lt;p id="_56b35fb2-db5d-4b0f-8f70-036024cf1551"&gt;be responsible for the following requirements and audit procedures&lt;/p&gt;
-&lt;/specification&gt;
-&lt;/requirement&gt;</b></para>
+  <div class="require"><p class="AdmonitionTitle">Requirement 1:<br/>/ss/584/2015/general/632</p><div><p class="MsoNormal"><a name="_c44cdb07-af17-4173-b34a-7dec504b1fca" id="_c44cdb07-af17-4173-b34a-7dec504b1fca"></a>The Cloud Service Provider&#x2019;s management and board of directors shall be responsible for the following requirements and audit procedures.</p>
+</div></div>
 </div>
         <div><a name="_level_1_requirements_and_audit_procedures" id="_level_1_requirements_and_audit_procedures"></a><h2>1.2. Level 1 requirements and audit procedures</h2>
 
-  <para><b role="strong">&lt;requirement id="_a226e231-f190-4fea-89c9-de61d8dc3786"&gt;&lt;label&gt;/ss/584/2015/level/1&lt;/label&gt;&lt;subject&gt;The Cloud Service Provider&#x2019;s management and board of directors&lt;/subject&gt;&lt;specification exclude="false"&gt;
-  &lt;ol id="_7021c8e4-9a73-44f1-8c7f-9455ade45deb" type="arabic"&gt;
-  &lt;li&gt;
-    &lt;p id="_ca5fb190-4ef6-4bf6-ad8f-d1d0a429e8d3"&gt;Managing information security risks related to people, process, technology and governance.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p id="_b4575d76-6835-4d92-86ef-073d316e91ec"&gt;Oversight of the effective implementation of the technology controls.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p id="_a4de23dd-76d0-47f2-bd0f-093ed185c310"&gt;Oversight of risk management practices.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-&lt;/specification&gt;
-&lt;verification exclude="false"&gt;
-  &lt;ol id="_1c88f89a-dd33-451e-a8a3-1f38c7073a79" type="arabic"&gt;
-  &lt;li&gt;
-    &lt;p id="_935dd2f5-2619-4de7-bc36-74c625dbec83"&gt;Determine that the responsibilities of management and board of directors in managing and overseeing information security risks are documented and communicated.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p id="_c2961b2d-23b9-457e-8003-7c78b05a9be3"&gt;Inspect documents such as meeting minutes and committee charter to identify the participants involved in the meeting or committee, their respective job functions and the reporting relationship.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p id="_71248367-171e-43b5-bc3f-c3e991783435"&gt;Determine whether the management and board of directors meet regularly, at an appropriate and monitored frequency.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p id="_d0e66245-467c-4fe5-904f-fa58051b4d4e"&gt;Determine whether the information security function is headed by a Chief Information Security Officer (CISO) or similar function.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-&lt;/verification&gt;&lt;/requirement&gt;</b></para>
+  <div class="require"><p class="AdmonitionTitle">Requirement 2:<br/>/ss/584/2015/level/1</p><div>
+  
+  <p class="MsoListParagraphCxSpFirst">
+    Managing information security risks related to people, process, technology and governance.
+  </p>
+  <p class="MsoListParagraphCxSpMiddle">
+    Oversight of the effective implementation of the technology controls.
+  </p>
+  <p class="MsoListParagraphCxSpLast">
+    Oversight of risk management practices.
+  </p>
+
+</div>
+<div>
+  
+  <p class="MsoListParagraphCxSpFirst">
+    Determine that the responsibilities of management and board of directors in managing and overseeing information security risks are documented and communicated.
+  </p>
+  <p class="MsoListParagraphCxSpMiddle">
+    Inspect documents such as meeting minutes and committee charter to identify the participants involved in the meeting or committee, their respective job functions and the reporting relationship.
+  </p>
+  <p class="MsoListParagraphCxSpMiddle">
+    Determine whether the management and board of directors meet regularly, at an appropriate and monitored frequency.
+  </p>
+  <p class="MsoListParagraphCxSpLast">
+    Determine whether the information security function is headed by a Chief Information Security Officer (CISO) or similar function.
+  </p>
+
+</div></div>
 </div>
         <div><a name="_level_2_requirements_and_audit_procedures" id="_level_2_requirements_and_audit_procedures"></a><h2>1.3. Level 2 requirements and audit procedures</h2>
 
-  <para><b role="strong">&lt;requirement id="_d0fb0c26-61b1-427a-a66b-9b216be47eae"&gt;
-  &lt;label&gt;/ss/584/2015/level/2&lt;/label&gt;
-  &lt;inherit&gt;/ss/584/2015/level/1&lt;/inherit&gt;
-  &lt;description&gt;&lt;p id="_5ae8dc99-0354-446d-9e3b-de90bb9db11d"&gt;The requirements and audit procedures are the same as those in Level 1.&lt;/p&gt;
-&lt;/description&gt;
-  &lt;verification exclude="false"/&gt;
-&lt;/requirement&gt;</b></para>
+  <div class="require"><p class="AdmonitionTitle">Requirement 3:<br/>/ss/584/2015/level/2</p><div>/ss/584/2015/level/1</div><div><p class="MsoNormal"><a name="_80d86dc3-4a99-403f-a97f-1e209262e4fe" id="_80d86dc3-4a99-403f-a97f-1e209262e4fe"></a>The requirements and audit procedures are the same as those in Level 1.</p>
+</div><div></div></div>
 </div>
-        <div><a name="_level_3_requirements_and_audit_procedures" id="_level_3_requirements_and_audit_procedures"></a><h2>1.4. Level 3 requirements and audit procedures</h2><para><b role="strong">&lt;requirement id="_a646a484-13de-4125-aefc-1ee1e256ebf9"&gt;
-  &lt;label&gt;/ss/584/2015/level/3&lt;/label&gt;
-  &lt;inherit&gt;/ss/584/2015/level/2&lt;/inherit&gt;
-  &lt;description&gt;&lt;p id="_6ddabd33-b5cc-4b71-97f1-0d89b67dd868"&gt;The requirements are the same as those in Level 2.&lt;/p&gt;
-&lt;/description&gt;
-  &lt;verification exclude="false"&gt;&lt;p id="_e0691ee7-f654-48f3-b3ac-2a4053db894c"&gt;The audit procedures are those in Level 1 and the following:&lt;/p&gt;
-&lt;ol id="_6ed16707-89b9-4346-9854-2398461a82fe" type="arabic"&gt;
-  &lt;li&gt;
-    &lt;p id="_8fbdf633-a45a-41dc-b71c-2ac9ba0056cc"&gt;Verify risks have been reviewed, understood, and addressed (i.e. including a cost benefit analysis) by management and the board.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;&lt;/verification&gt;
-&lt;/requirement&gt;</b></para>
-<para><b role="strong">&lt;recommendation id="_cc5695bd-1628-476c-8c54-18568ac19f1a"&gt;&lt;label&gt;/ogc/recommendation/wfs/2&lt;/label&gt;&lt;subject&gt;user&lt;/subject&gt;&lt;description&gt;&lt;p id="_068be8b9-b0b1-4002-bda3-dec13e5d00c9"&gt;I recommend &lt;em&gt;this&lt;/em&gt;.&lt;/p&gt;
-&lt;/description&gt;&lt;specification exclude="false"&gt;&lt;p id="_59491752-4ba3-40b9-8aac-0d5f4ca4502f"&gt;This is the object of the recommendation:&lt;/p&gt;
-&lt;table id="_bb9fdb8e-4fe2-49d5-8591-2a51a0a63c43"&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th align="left"&gt;Object&lt;/th&gt;
-      &lt;th align="left"&gt;Value&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td align="left"&gt;Mission&lt;/td&gt;
-      &lt;td align="left"&gt;Accomplished&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;&lt;/specification&gt;&lt;description&gt;
-&lt;p id="_ebe3d977-f55b-4ce6-8ac8-6d274979e642"&gt;As for the measurement targets,&lt;/p&gt;
-&lt;/description&gt;&lt;measurement-target exclude="false"&gt;&lt;p id="_3bee926c-4c54-4b7e-addd-fe446372a2d8"&gt;The measurement target shall be measured as:&lt;/p&gt;
-&lt;formula id="_2ec66bf5-c649-4330-865f-33717a0df4c2"&gt;
-  &lt;stem type="MathML"&gt;&lt;math xmlns="http://www.w3.org/1998/Math/MathML"&gt;&lt;mfrac&gt;&lt;mi&gt;r&lt;/mi&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;/mfrac&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mn&gt;0&lt;/mn&gt;&lt;/math&gt;&lt;/stem&gt;
-&lt;/formula&gt;&lt;/measurement-target&gt;
-&lt;verification exclude="false"&gt;
-  &lt;ol id="_fd478245-4a0d-4ef9-b417-1c6a470720d2" type="arabic"&gt;
-  &lt;li&gt;
-    &lt;p id="_87ff7177-24a6-4066-977e-5e4a1544098c"&gt;We take a measurement&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p id="_0add2982-befc-4d48-bfe2-6680ecf47f93"&gt;The measurement is consistent with the formula above&lt;/p&gt;
-    &lt;ol id="_57eecb20-e331-4cf4-8683-4d4bc403b8a8" type="alphabet"&gt;
-  &lt;li&gt;
-    &lt;p id="_f647eb84-f126-441f-ae66-52fc71426810"&gt;If the measurement is not consistent with the formula above, then the verification has failed&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-&lt;/verification&gt;&lt;/recommendation&gt;</b></para></div>
+        <div><a name="_level_3_requirements_and_audit_procedures" id="_level_3_requirements_and_audit_procedures"></a><h2>1.4. Level 3 requirements and audit procedures</h2><div class="require"><p class="AdmonitionTitle">Requirement 4:<br/>/ss/584/2015/level/3</p><div>/ss/584/2015/level/2</div><div><p class="MsoNormal"><a name="_2456c007-1831-4710-bb76-87f99194c952" id="_2456c007-1831-4710-bb76-87f99194c952"></a>The requirements are the same as those in Level 2.</p>
+</div><div><p class="MsoNormal"><a name="_2736c068-cc40-4432-bfa9-7d7cc9e5187b" id="_2736c068-cc40-4432-bfa9-7d7cc9e5187b"></a>The audit procedures are those in Level 1 and the following:</p>
+
+  <p class="MsoListParagraphCxSpFirst">
+    Verify risks have been reviewed, understood, and addressed (i.e. including a cost benefit analysis) by management and the board.
+  </p>
+</div></div>
+<div class="recommend"><p class="AdmonitionTitle">Recommendation 1:<br/>/ogc/recommendation/wfs/2</p><div><p class="MsoNormal"><a name="_4bdce35b-61af-4225-9817-f53d070aa0a4" id="_4bdce35b-61af-4225-9817-f53d070aa0a4"></a>I recommend <i>this</i>.</p>
+</div><div><p class="MsoNormal"><a name="_b42b60aa-40a9-4432-936d-1e64b500113d" id="_b42b60aa-40a9-4432-936d-1e64b500113d"></a>This is the object of the recommendation:</p>
+<p class="TableTitle" align="center">Table 1</p><div align="center"><table style="mso-table-lspace:15.0cm;margin-left:423.0pt;mso-table-rspace:15.0cm;margin-right:423.0pt;mso-table-bspace:14.2pt;mso-table-anchor-vertical:paragraph;mso-table-anchor-horizontal:column;mso-table-overlap:never;" class="MsoISOTable" border="1" cellspacing="0" cellpadding="0"><a name="_982512da-1100-4e74-9833-3553d765375a" id="_982512da-1100-4e74-9833-3553d765375a"></a><thead><tr><th align="left" style="font-weight:bold;border-top:solid windowtext 1.5pt;mso-border-top-alt:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;mso-border-bottom-alt:solid windowtext 1.5pt;">Object</th><th align="left" style="font-weight:bold;border-top:solid windowtext 1.5pt;mso-border-top-alt:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;mso-border-bottom-alt:solid windowtext 1.5pt;">Value</th></tr></thead><tbody><tr><td align="left" style="border-top:solid windowtext 1.5pt;mso-border-top-alt:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;mso-border-bottom-alt:solid windowtext 1.5pt;">Mission</td><td align="left" style="border-top:solid windowtext 1.5pt;mso-border-top-alt:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;mso-border-bottom-alt:solid windowtext 1.5pt;">Accomplished</td></tr></tbody></table></div></div><div>
+<p class="MsoNormal"><a name="_dd098778-7639-49c7-9774-f8a307d0f5df" id="_dd098778-7639-49c7-9774-f8a307d0f5df"></a>As for the measurement targets,</p>
+</div><div><p class="MsoNormal"><a name="_af0e1d90-4040-4ef0-98cd-6fce0c22d53b" id="_af0e1d90-4040-4ef0-98cd-6fce0c22d53b"></a>The measurement target shall be measured as:</p>
+<div class="formula"><a name="_ecd9962f-fe35-420c-a461-9d734a4ddebb" id="_ecd9962f-fe35-420c-a461-9d734a4ddebb"></a><p class="MsoNormal"><span class="stem"><m:oMath>
+  <m:f><m:fPr><m:type m:val="bar"></m:type></m:fPr><m:num><m:r><m:t>r</m:t></m:r></m:num><m:den><m:r><m:t>1</m:t></m:r></m:den></m:f>
+  <m:r><m:t>=0</m:t></m:r>
+  
+</m:oMath>
+</span><span style="mso-tab-count:1">&#xA0; </span>(1)</p></div>
+
+</div>
+<div>
+  
+  <p class="MsoListParagraphCxSpFirst">
+    We take a measurement
+  </p>
+  <p class="MsoListParagraphCxSpLast">
+    The measurement is consistent with the formula above
+    
+  <p class="MsoListParagraphCxSpFirst">
+    If the measurement is not consistent with the formula above, then the verification has failed
+  </p>
+
+  </p>
+
+</div></div></div>
       </div>
     </div>
   <div style="mso-element:footnote-list"/></body>
 </html>
 
 
-------=_NextPart_3ffd95bf.91bc.4a6e
+------=_NextPart_271b0a81.e6b0.42ee
 Content-Location: file:///C:/Doc/ss584_nn_files/filelist.xml
 Content-Transfer-Encoding: base64
 Content-Type: application/xml
@@ -1156,4 +1131,4 @@ PHhtbCB4bWxuczpvPSJ1cm46c2NoZW1hcy1taWNyb3NvZnQtY29tOm9mZmljZTpvZmZpY2UiPgog
 ICAgICAgIDxvOk1haW5GaWxlIEhSZWY9Ii4uL3NzNTg0X25uLmh0bSIvPiAgPG86RmlsZSBIUmVm
 PSJmaWxlbGlzdC54bWwiLz4KPC94bWw+Cg==
 
-------=_NextPart_3ffd95bf.91bc.4a6e--
+------=_NextPart_271b0a81.e6b0.42ee--

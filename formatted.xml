@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<standard-document xmlns="http://riboseinc.com/isoxml">
+<bibdata type="article"> 
+   
+   
+   
+   
+  <language>en</language> 
+  <script>Latn</script> 
+  <status format="plain">published</status> 
+  <copyright> 
+    <from>2019</from> 
+  </copyright> 
+  <editorialgroup> 
+    <technical-committee/> 
+  </editorialgroup> 
+</bibdata>
+<sections> 
+  <requirement id="_2f347f98-c1d2-42ae-afda-3289e8f0042a"><title>Generic Structure for Permutation Testing</title><label>/iid-testing/permutation-test/</label><classification><tag>control-class</tag><value>Technical</value></classification><classification><tag>priority</tag><value>P0</value></classification><classification><tag>family</tag><value>System and Communications Protection</value></classification><classification><tag>family</tag><value>System and Communications Protocols</value></classification><description><p align="left" id="_2c03f173-6198-4fee-a833-5cb50386d0e5">The information system includes components specifically designed to be the target of malicious attacks for the purpose of detecting, deflecting, and analyzing such attacks.</p>  
+<p id="_412e1c72-9491-41f0-b345-ef4f3ff059e8">The organization develops, disseminates, and reviews/updates [<em>Assignment: organization-defined frequency</em>]</p>  
+<ol id="_53e9052a-62e2-4975-afab-954f2a24b3d2" type="arabic">   
+  <li>   
+    <p id="_ae024eab-3b75-4955-a4bd-a85a1322affd">A formal, documented access control policy that addresses purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities, and compliance; and</p>   
+  </li>   
+  <li>   
+    <p id="_17dc235a-74af-4b1c-b06b-bff57c7256bd">Formal, documented procedures to facilitate the implementation of the access control policy and associated access controls.</p>   
+  </li>   
+</ol>  
+</description><verification exclude="false" type="pseudo-fortress"><sourcecode id="_c0b97150-4265-462d-866a-36aeb3a1496a">import FisherYatesShuffle, TestStatistic</sourcecode>   
+</verification></requirement> 
+</sections>
+</standard-document>

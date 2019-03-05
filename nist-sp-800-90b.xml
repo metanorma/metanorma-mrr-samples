@@ -16,57 +16,57 @@
   </editorialgroup> 
 </bibdata>
 <sections> 
-  <requirement id="_a9116548-d34b-4b2d-91f2-94200974a86c"><label>/iid-testing/permutation-test/</label><description><dl id="_37c6d1bf-9906-4364-9dd2-550faa7a065a">   
+  <requirement id="_fb55fe52-c74e-4de5-81d2-3434a06ee743"><title>Generic Structure for Permutation Testing</title><label>/iid-testing/permutation-test/</label><description><dl id="_fdf794bc-8fb2-4cdf-bf7b-36d4a915bd5c">   
   <dt>Input</dt>   
   <dd>   
-    <p id="_c47c2aab-219d-4266-bbcc-caa97f6c0ed6">   
+    <p id="_9c3e44a0-2c7d-43b6-b220-5fcdfa375f40">   
       <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>S</mi><mo>=</mo><mrow><mo>(</mo><msub><mi>s</mi><mn>1</mn></msub><mi>,</mi><mo>…</mo><mi>,</mi><msub><mi>s</mi><mi>L</mi></msub><mo>)</mo></mrow></math></stem>   
     </p>   
   </dd>   
   <dt>Output</dt>   
   <dd>   
-    <p id="_40ac6b72-7749-4ce5-a086-0cd46d95dcd4">Decision on the IID assumption</p>   
+    <p id="_f346ac4c-15ce-4a9b-b338-8d8abce94848">Decision on the IID assumption</p>   
   </dd>   
   <dt>Steps</dt>   
   <dd>   
-    <ol id="_aaba1df9-cf9d-4d41-91dd-ae2a897fcfa5" type="arabic">    
+    <ol id="_60da8076-c4f5-45f3-bc9f-6d74c283f76e" type="arabic">    
   <li>    
-    <p id="_f88783aa-64e0-4700-bab4-f03d4e058bdb">For each test <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>i</mi></math></stem></p>    
-    <ol id="_6b5abded-21f7-40af-ac7a-0485fbb1177c" type="alphabet">     
+    <p id="_031d064d-1325-4fe9-b17d-0c2f5d90c0e5">For each test <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>i</mi></math></stem></p>    
+    <ol id="_9ba2a059-d344-4b73-b568-cd9d35b28cdf" type="alphabet">     
   <li>     
-    <p id="_f09611b1-a97b-425f-b9eb-313257b85c85">Assign the counters <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>C</mi><mrow><mi>i</mi><mi>,</mi><mn>0</mn></mrow></msub></math></stem> and <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>C</mi><mrow><mi>i</mi><mi>,</mi><mn>1</mn></mrow></msub></math></stem> to zero.</p>     
+    <p id="_86041a2b-b5e6-474b-9f25-42852be3d7fb">Assign the counters <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>C</mi><mrow><mi>i</mi><mi>,</mi><mn>0</mn></mrow></msub></math></stem> and <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>C</mi><mrow><mi>i</mi><mi>,</mi><mn>1</mn></mrow></msub></math></stem> to zero.</p>     
   </li>     
   <li>     
-    <p id="_42f349f7-f04f-4992-bfde-3524a69b8df5">Calculate the test statistic <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>T</mi><mi>i</mi></msub></math></stem> on <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>S</mi></math></stem>.</p>     
+    <p id="_37aec4bf-07dd-477e-b21d-295e58e9216f">Calculate the test statistic <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>T</mi><mi>i</mi></msub></math></stem> on <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>S</mi></math></stem>.</p>     
   </li>     
 </ol>    
   </li>    
   <li>    
-    <p id="_a0f426a1-c4b2-4fa1-ad64-bfe4bb51c536">For <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>j</mi><mo>=</mo><mn>1</mn></math></stem> to 10 000</p>    
-    <ol id="_a81d48dc-9a78-487f-b12a-7a3addd4b285" type="alphabet">     
+    <p id="_c2e7400f-53e8-497b-bfda-b3c107f03f27">For <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>j</mi><mo>=</mo><mn>1</mn></math></stem> to 10 000</p>    
+    <ol id="_9bf51bd5-8e1b-40d2-81cf-90ed1bf33b95" type="alphabet">     
   <li>     
-    <p id="_67eb5205-b4e6-4795-823a-aaf6d9063c37">Permute <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>S</mi></math></stem> using the Fisher-Yates shuffle algorithm.</p>     
+    <p id="_093a5110-fb41-476f-ae26-0ef84c57e7f6">Permute <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>S</mi></math></stem> using the Fisher-Yates shuffle algorithm.</p>     
   </li>     
   <li>     
-    <p id="_71391aaf-2e4c-4687-badf-c09849acfa93">For each test <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>i</mi></math></stem></p>     
-    <ol id="_a842b737-d375-4e43-8c81-124f91e58acc" type="roman">      
+    <p id="_7ba3baff-a742-4522-b644-506110c0ef9c">For each test <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>i</mi></math></stem></p>     
+    <ol id="_e6e4bdbb-026e-4e0e-89b1-c8dac38bdc18" type="roman">      
   <li>      
-    <p id="_f0f3c0a0-7db0-438c-a556-1e9b56318799">Calculate the test statistic <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>T</mi></math></stem> on the permuted data.</p>      
+    <p id="_871cf592-4560-4010-a50a-905c99dc284b">Calculate the test statistic <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>T</mi></math></stem> on the permuted data.</p>      
   </li>      
   <li>      
-    <p id="_3ffc324e-2d54-4367-9221-3d7d8be2b3c2">If (<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>T</mi><mi>&amp;</mi><mo>&gt;</mo><mi>;</mi><msub><mi>T</mi><mi>i</mi></msub></math></stem>), increment <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>C</mi><mrow><mi>i</mi><mi>,</mi><mn>0</mn></mrow></msub></math></stem>. If (<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>T</mi><mo>=</mo><msub><mi>T</mi><mi>i</mi></msub></math></stem>), increment <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>C</mi><mrow><mi>i</mi><mi>,</mi><mn>1</mn></mrow></msub></math></stem>.</p>      
+    <p id="_a557222e-bb12-4ca4-a740-7dd6d22126d9">If (<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>T</mi><mi>&amp;</mi><mo>&gt;</mo><mi>;</mi><msub><mi>T</mi><mi>i</mi></msub></math></stem>), increment <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>C</mi><mrow><mi>i</mi><mi>,</mi><mn>0</mn></mrow></msub></math></stem>. If (<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>T</mi><mo>=</mo><msub><mi>T</mi><mi>i</mi></msub></math></stem>), increment <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>C</mi><mrow><mi>i</mi><mi>,</mi><mn>1</mn></mrow></msub></math></stem>.</p>      
   </li>      
 </ol>     
   </li>     
 </ol>    
   </li>    
   <li>    
-    <p id="_59b4e590-f96e-4369-8cd7-082ab86f5f52">If ( (<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>C</mi><mrow><mi>i</mi><mi>,</mi><mn>0</mn></mrow></msub><mo>+</mo><msub><mi>C</mi><mrow><mi>i</mi><mi>,</mi><mn>1</mn></mrow></msub><mi>&amp;</mi><mo>&lt;</mo><mi>;</mi><mo>=</mo><mn>5</mn></math></stem>) or (<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>C</mi><mrow><mi>i</mi><mi>,</mi><mn>0</mn></mrow></msub><mi>&amp;</mi><mo>&gt;</mo><mi>;</mi><mo>=</mo><mn>9995</mn></math></stem>) ) for any <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>i</mi></math></stem>, reject the IID assumption; else, assume that the noise source outputs are IID.</p>    
+    <p id="_3958bbab-75eb-4418-9780-bfc81121a48d">If ( (<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>C</mi><mrow><mi>i</mi><mi>,</mi><mn>0</mn></mrow></msub><mo>+</mo><msub><mi>C</mi><mrow><mi>i</mi><mi>,</mi><mn>1</mn></mrow></msub><mi>&amp;</mi><mo>&lt;</mo><mi>;</mi><mo>=</mo><mn>5</mn></math></stem>) or (<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>C</mi><mrow><mi>i</mi><mi>,</mi><mn>0</mn></mrow></msub><mi>&amp;</mi><mo>&gt;</mo><mi>;</mi><mo>=</mo><mn>9995</mn></math></stem>) ) for any <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>i</mi></math></stem>, reject the IID assumption; else, assume that the noise source outputs are IID.</p>    
   </li>    
 </ol>   
   </dd>   
 </dl>  
-<sourcecode id="_a33ae82c-12b5-4922-99ab-1adaa3ffe274">import FisherYatesShuffle, TestStatistic  
+<sourcecode id="_29a9e4ee-0a7d-4c90-8547-eec75ae14dbe">import FisherYatesShuffle, TestStatistic  
   
 DecideIID(S: ZZ[], L: RR) : Boolean =  
   for i &lt;- 1 : L do  

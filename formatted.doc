@@ -1,8 +1,8 @@
 MIME-Version: 1.0
-Content-Type: multipart/related; boundary="----=_NextPart_5f2dfc40.775e.4076"
+Content-Type: multipart/related; boundary="----=_NextPart_d3d38688.b0bd.4d7f"
 
-------=_NextPart_5f2dfc40.775e.4076
-Content-Location: file:///C:/Doc/ogc-geojson.htm
+------=_NextPart_d3d38688.b0bd.4d7f
+Content-Location: file:///C:/Doc/formatted.htm
 Content-Type: text/html; charset="utf-8"
 
 <?xml version="1.0"?>
@@ -18,7 +18,7 @@ Content-Type: text/html; charset="utf-8"
 <![endif]-->
 <meta http-equiv=Content-Type content="text/html; charset=utf-8"/>
 
-  <link rel=File-List href="ogc-geojson_files/filelist.xml"/>
+  <link rel=File-List href="formatted_files/filelist.xml"/>
 <style><![CDATA[
   <!--
   /* Font Definitions */
@@ -1042,13 +1042,13 @@ br.pagebreak
 </html>
 
 
-------=_NextPart_5f2dfc40.775e.4076
-Content-Location: file:///C:/Doc/ogc-geojson_files/filelist.xml
+------=_NextPart_d3d38688.b0bd.4d7f
+Content-Location: file:///C:/Doc/formatted_files/filelist.xml
 Content-Transfer-Encoding: base64
 Content-Type: application/xml
 
 PHhtbCB4bWxuczpvPSJ1cm46c2NoZW1hcy1taWNyb3NvZnQtY29tOm9mZmljZTpvZmZpY2UiPgog
-ICAgICAgIDxvOk1haW5GaWxlIEhSZWY9Ii4uL29nYy1nZW9qc29uLmh0bSIvPiAgPG86RmlsZSBI
-UmVmPSJmaWxlbGlzdC54bWwiLz4KPC94bWw+Cg==
+ICAgICAgIDxvOk1haW5GaWxlIEhSZWY9Ii4uL2Zvcm1hdHRlZC5odG0iLz4gIDxvOkZpbGUgSFJl
+Zj0iZmlsZWxpc3QueG1sIi8+CjwveG1sPgo=
 
-------=_NextPart_5f2dfc40.775e.4076--
+------=_NextPart_d3d38688.b0bd.4d7f--

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<standard-document xmlns="http://riboseinc.com/isoxml">
+<bibdata type="article"> 
+   
+   
+   
+   
+  <language>en</language> 
+  <script>Latn</script> 
+  <status format="plain">published</status> 
+  <copyright> 
+    <from>2019</from> 
+  </copyright> 
+  <editorialgroup> 
+    <technical-committee/> 
+  </editorialgroup> 
+</bibdata>
+<sections> 
+  <requirement id="_e6c29fa6-7ed3-47c5-a7ab-b3b76ac62248"><title>Generic Structure for Permutation Testing</title><label>/iid-testing/permutation-test/</label><requirement id="_114dfcfe-3729-4365-93fe-90b0b0a34c64"><label>/iid-testing/permutation-test/1</label><description><p align="left" id="_37a6ac45-bf65-42c7-847c-8685a301ecdf">The information system includes components specifically designed to be the target of malicious attacks for the purpose of detecting, deflecting, and analyzing such attacks.</p>   
+<p id="_f74b7f0e-f29b-47c5-82e3-2a74c8298499">The organization develops, disseminates, and reviews/updates [<em>Assignment: organization-defined frequency</em>]</p>   
+<ol id="_d60b3753-1b07-409b-90e7-d4d2d70f5660" type="arabic">    
+  <li>    
+    <p id="_5c780127-0064-438e-8ec9-e36c10e8b23a">A formal, documented access control policy that addresses purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities, and compliance; and</p>    
+  </li>    
+  <li>    
+    <p id="_86ee08c8-7ace-44c0-b688-316911cb7421">Formal, documented procedures to facilitate the implementation of the access control policy and associated access controls.</p>    
+  </li>    
+</ol></description></requirement>
+<requirement id="_94a0df31-afe9-4939-b2f6-b7e1c500d8db"><label>/iid-testing/permutation-test/2</label><verification exclude="false" type="pseudo-fortress"><sourcecode id="_14ee78ff-2184-4116-95f4-f52d9bbe9408">import FisherYatesShuffle, TestStatistic</sourcecode>    
+</verification><description>   
+<example id="_5bea3a33-b3a6-40c2-abda-585a048ca1f1">    
+  <p id="_2d257ff1-6a8c-4b99-8a61-bd90c400bba3"/>    
+</example></description></requirement></requirement> 
+</sections>
+</standard-document>

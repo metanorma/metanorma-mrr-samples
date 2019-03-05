@@ -16,27 +16,27 @@
   </editorialgroup> 
 </bibdata>
 <sections> 
-  <requirement id="_42d61efc-0b34-4c26-916a-1d00e08025a3"><label>/req/core/root-success</label><subject>endpoint</subject><description><p id="_c66f94a6-036f-48b6-a5f5-7816f40d91be">A successful execution of the operation SHALL be reported as a response with a HTTP status code 200.</p>  
-</description><verification exclude="false"><sourcecode lang="CoreRoot" id="_407eff2e-186b-45c1-82b1-2ba91243765d">CoreRoot(success): HttpResponse   
+  <requirement id="_caf2794d-b7e5-40fb-ab93-e2854f0b46ff"><label>/req/core/root-success</label><subject>endpoint</subject><description><p id="_1f67c2c2-ee8a-45ca-b9bd-6bc73a871194">A successful execution of the operation SHALL be reported as a response with a HTTP status code 200.</p>  
+</description><verification exclude="false"><sourcecode lang="CoreRoot" id="_a5120bf1-0a4c-4031-9b39-32f28cd6cf21">CoreRoot(success): HttpResponse   
 if (success)   
   requirement(label: success-response)   
 end</sourcecode>   
 </verification>
-<import exclude="false"><sourcecode lang="CoreRoot" id="_eee2ee26-a787-4798-97a8-ee3192bcb352">success-response()</sourcecode>   
+<import exclude="false"><sourcecode lang="CoreRoot" id="_b711b7e1-21a8-4cb6-9ffe-b65dafbfa93e">success-response()</sourcecode>   
 </import><description>  
-<p id="_9747cd7f-13ce-49f4-850e-e92281f90e0a">The content of that response SHALL be based upon the provided OpenAPI 3.0 schema and include at least links to the following resources:</p>  
-<ul id="_e8218fbe-b91f-4ff8-9205-270973701405">   
+<p id="_94f17182-5d44-48f3-8b70-55cbaa20d6b3">The content of that response SHALL be based upon the provided OpenAPI 3.0 schema and include at least links to the following resources:</p>  
+<ul id="_dcb527a9-71bb-4815-923f-d1c5062d76d5">   
   <li>   
-    <p id="_0d3381f4-e251-446d-b7ce-b5ed8122c933"><tt>/api</tt> (relation type “service”)</p>   
+    <p id="_86daffd0-5cd1-4957-9411-1f2806a4da6a"><tt>/api</tt> (relation type “service”)</p>   
   </li>   
   <li>   
-    <p id="_9affb2f8-8dc4-4ee1-8c06-8733faf9e505"><tt>/conformance</tt> (relation type “conformance”)</p>   
+    <p id="_9fde0f89-80db-42b8-a024-db567489135e"><tt>/conformance</tt> (relation type “conformance”)</p>   
   </li>   
   <li>   
-    <p id="_891e9db7-d690-4b72-98bb-eb7399770a8b"><tt>/collections</tt> (relation type “data”)</p>   
+    <p id="_b8cc4c38-1473-43c5-8dcd-e25c601053b0"><tt>/collections</tt> (relation type “data”)</p>   
   </li>   
 </ul>  
-</description><specification exclude="false" type="oapi30"><sourcecode lang="yaml" id="_f2e76ead-2d25-48b2-acbd-948e1b0075e0">'/':   
+</description><specification exclude="false" type="oapi30"><sourcecode lang="yaml" id="_bfdd2dc1-55bb-44d2-91be-427d5217c427">'/':   
   get:   
     responses:   
       '200':   
