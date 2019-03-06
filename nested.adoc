@@ -18,6 +18,7 @@ The organization develops, disseminates, and reviews/updates [_Assignment: organ
 
 [requirement,type="pseudocode",label="/iid-testing/permutation-test/2"]
 =====
+
 [verification,type="pseudo-fortress"]
 --
 [source,lang="DecideIID"]
@@ -25,6 +26,7 @@ The organization develops, disseminates, and reviews/updates [_Assignment: organ
 import FisherYatesShuffle, TestStatistic
 ----
 --
-======
+
+=====
 
 ====

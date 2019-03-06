@@ -16,17 +16,17 @@
   </editorialgroup> 
 </bibdata>
 <sections> 
-  <requirement id="_2f347f98-c1d2-42ae-afda-3289e8f0042a"><title>Generic Structure for Permutation Testing</title><label>/iid-testing/permutation-test/</label><classification><tag>control-class</tag><value>Technical</value></classification><classification><tag>priority</tag><value>P0</value></classification><classification><tag>family</tag><value>System and Communications Protection</value></classification><classification><tag>family</tag><value>System and Communications Protocols</value></classification><description><p align="left" id="_2c03f173-6198-4fee-a833-5cb50386d0e5">The information system includes components specifically designed to be the target of malicious attacks for the purpose of detecting, deflecting, and analyzing such attacks.</p>  
-<p id="_412e1c72-9491-41f0-b345-ef4f3ff059e8">The organization develops, disseminates, and reviews/updates [<em>Assignment: organization-defined frequency</em>]</p>  
-<ol id="_53e9052a-62e2-4975-afab-954f2a24b3d2" type="arabic">   
+  <requirement id="_2529f0c2-a6fc-439f-946f-e6439d2f1719"><title>Generic Structure for Permutation Testing</title><label>/iid-testing/permutation-test/</label><classification><tag>control-class</tag><value>Technical</value></classification><classification><tag>priority</tag><value>P0</value></classification><classification><tag>family</tag><value>System and Communications Protection</value></classification><classification><tag>family</tag><value>System and Communications Protocols</value></classification><description><p align="left" id="_6cf1d37c-99e3-476d-86f1-22e8cc3e8a39">The information system includes components specifically designed to be the target of malicious attacks for the purpose of detecting, deflecting, and analyzing such attacks.</p>  
+<p id="_2ec4a597-5c1e-49bd-907e-7c61f0067227">The organization develops, disseminates, and reviews/updates [<em>Assignment: organization-defined frequency</em>]</p>  
+<ol id="_63a8b31c-8d0a-472a-abd0-943599e2fd5a" type="arabic">   
   <li>   
-    <p id="_ae024eab-3b75-4955-a4bd-a85a1322affd">A formal, documented access control policy that addresses purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities, and compliance; and</p>   
+    <p id="_7009ecf4-0db8-45b2-acbe-236f80f1f9d9">A formal, documented access control policy that addresses purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities, and compliance; and</p>   
   </li>   
   <li>   
-    <p id="_17dc235a-74af-4b1c-b06b-bff57c7256bd">Formal, documented procedures to facilitate the implementation of the access control policy and associated access controls.</p>   
+    <p id="_e00b8221-23e7-4217-89d2-e78bdf94aa1a">Formal, documented procedures to facilitate the implementation of the access control policy and associated access controls.</p>   
   </li>   
 </ol>  
-</description><verification exclude="false" type="pseudo-fortress"><sourcecode id="_c0b97150-4265-462d-866a-36aeb3a1496a">import FisherYatesShuffle, TestStatistic</sourcecode>   
+</description><verification exclude="false" type="pseudo-fortress"><sourcecode id="_e9c64080-adb0-4cc5-ad78-f78a3ca1957e">import FisherYatesShuffle, TestStatistic</sourcecode>   
 </verification></requirement> 
 </sections>
 </standard-document>

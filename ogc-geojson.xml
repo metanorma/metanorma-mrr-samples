@@ -16,29 +16,29 @@
   </editorialgroup> 
 </bibdata>
 <sections> 
-  <requirement id="/req/geojson/content"><requirement id="_fb37decd-91be-433d-93a6-80b2da9dc0d8"><description><dl id="_ab7b48ee-5e5a-4205-ad15-a25f40e1272f">    
+  <requirement id="/req/geojson/content"><requirement id="_d8965924-5ea7-43ec-ae13-6235c3fbaf72"><description><dl id="_310edb57-ad9c-42cc-95e9-e327b9420f87">    
   <dt>response</dt>    
   <dd>    
-    <p id="_2a9100e3-a099-429f-b530-6da996b81138">200</p>    
+    <p id="_b329e7ba-5153-4e21-94f5-2190fe5c02fa">200</p>    
   </dd>    
   <dt>media-type</dt>    
   <dd>    
-    <p id="_4e372933-b9c2-4707-bb87-19afb7bae15d">application/geo+json</p>    
+    <p id="_b6af57d2-186e-40e1-9652-91e76e774bcc">application/geo+json</p>    
   </dd>    
 </dl>   
-<p id="_7bacff30-7f67-4871-8dd2-c28c7af179c8">Every <tt>200</tt>-response with the media type <tt>application/geo+json</tt> SHALL be</p>   
-<ul id="_901646d8-748e-48ad-81fc-42c68b7b436f">    
+<p id="_dc6873a9-d287-4b82-912c-75648e1db977">Every <tt>200</tt>-response with the media type <tt>application/geo+json</tt> SHALL be</p>   
+<ul id="_90871a00-f875-4653-bf16-9a39c15340a4">    
   <li>    
-    <p id="_4c92c81a-9ad0-4a44-ae14-785c89501746">a <link target="https://tools.ietf.org/html/rfc7946#section-3.3">GeoJSON FeatureCollection Object</link> for feature collections, and</p>    
+    <p id="_08c3d63d-6532-41f6-a36c-030469010ade">a <link target="https://tools.ietf.org/html/rfc7946#section-3.3">GeoJSON FeatureCollection Object</link> for feature collections, and</p>    
   </li>    
   <li>    
-    <p id="_9d8fbe85-cc68-4cba-a661-bacee9771c7d">a <link target="https://tools.ietf.org/html/rfc7946#section-3.2">GeoJSON Feature Object</link> for features.</p>    
+    <p id="_b64bf12d-5727-4c20-8f10-ca692b544816">a <link target="https://tools.ietf.org/html/rfc7946#section-3.2">GeoJSON Feature Object</link> for features.</p>    
   </li>    
 </ul></description></requirement><description>  
-<p id="_ede0621a-8226-4237-b968-b974b5796e8d">The links specified in the requirements <xref target="requirement:&quot;/req/core/fc-links&quot;"/> and   
+<p id="_36f42993-f451-4f93-a8d1-1acd067d1085">The links specified in the requirements <xref target="requirement:&quot;/req/core/fc-links&quot;"/> and   
 <xref target="requirement:&quot;/req/core/f-links&quot;"/> SHALL be added in a extension property   
 (foreign member) with the name <tt>links</tt>.</p>  
-<p id="_fd4a8746-7f11-424f-b84c-3b34cd88a241">The schema of all responses with the media type <tt>application/json</tt> SHALL   
+<p id="_7e6c9db1-adfd-4bae-8110-869064759f14">The schema of all responses with the media type <tt>application/json</tt> SHALL   
 conform with the JSON Schema specified for the resource in the requirements class   
 <xref target="rc_core">WFS 3.0 Core</xref>.</p></description></requirement> 
 </sections>

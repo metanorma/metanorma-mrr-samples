@@ -16,20 +16,20 @@
   </editorialgroup> 
 </bibdata>
 <sections> 
-  <requirement id="_e6c29fa6-7ed3-47c5-a7ab-b3b76ac62248"><title>Generic Structure for Permutation Testing</title><label>/iid-testing/permutation-test/</label><requirement id="_114dfcfe-3729-4365-93fe-90b0b0a34c64"><label>/iid-testing/permutation-test/1</label><description><p align="left" id="_37a6ac45-bf65-42c7-847c-8685a301ecdf">The information system includes components specifically designed to be the target of malicious attacks for the purpose of detecting, deflecting, and analyzing such attacks.</p>   
-<p id="_f74b7f0e-f29b-47c5-82e3-2a74c8298499">The organization develops, disseminates, and reviews/updates [<em>Assignment: organization-defined frequency</em>]</p>   
-<ol id="_d60b3753-1b07-409b-90e7-d4d2d70f5660" type="arabic">    
+  <requirement id="_f9d0a478-e14b-48e4-92e7-234f70e8ba94"><title>Generic Structure for Permutation Testing</title><label>/iid-testing/permutation-test/</label><requirement id="_500d826c-ec7a-43ea-81cb-a0e961cc0bc0"><label>/iid-testing/permutation-test/1</label><description><p align="left" id="_71d2696d-0686-4d38-a6ca-af973f6829c9">The information system includes components specifically designed to be the target of malicious attacks for the purpose of detecting, deflecting, and analyzing such attacks.</p>   
+<p id="_34b0cc0c-75d0-483c-bc93-3ea989854dbf">The organization develops, disseminates, and reviews/updates [<em>Assignment: organization-defined frequency</em>]</p>   
+<ol id="_e523518f-91bb-404b-8f4b-3b21b1e3a023" type="arabic">    
   <li>    
-    <p id="_5c780127-0064-438e-8ec9-e36c10e8b23a">A formal, documented access control policy that addresses purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities, and compliance; and</p>    
+    <p id="_0cbe2e44-2079-45ba-ac9e-2c5a0ae058c1">A formal, documented access control policy that addresses purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities, and compliance; and</p>    
   </li>    
   <li>    
-    <p id="_86ee08c8-7ace-44c0-b688-316911cb7421">Formal, documented procedures to facilitate the implementation of the access control policy and associated access controls.</p>    
+    <p id="_2e5936ba-973e-48f3-9881-25ebe229e053">Formal, documented procedures to facilitate the implementation of the access control policy and associated access controls.</p>    
   </li>    
 </ol></description></requirement>
-<requirement id="_94a0df31-afe9-4939-b2f6-b7e1c500d8db"><label>/iid-testing/permutation-test/2</label><verification exclude="false" type="pseudo-fortress"><sourcecode id="_14ee78ff-2184-4116-95f4-f52d9bbe9408">import FisherYatesShuffle, TestStatistic</sourcecode>    
-</verification><description>   
-<example id="_5bea3a33-b3a6-40c2-abda-585a048ca1f1">    
-  <p id="_2d257ff1-6a8c-4b99-8a61-bd90c400bba3"/>    
-</example></description></requirement></requirement> 
+<requirement id="_a599601d-9b67-4650-b913-3a022cf7e3ce">
+<label>/iid-testing/permutation-test/2</label>
+<verification exclude="false" type="pseudo-fortress"><sourcecode id="_9d59f1cd-030d-40ff-9e66-763af6769802">import FisherYatesShuffle, TestStatistic</sourcecode>    
+</verification>
+</requirement></requirement> 
 </sections>
 </standard-document>
