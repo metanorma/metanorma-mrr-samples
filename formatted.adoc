@@ -1,7 +1,7 @@
 
 
 .Generic Structure for Permutation Testing
-[requirement,type="pseudocode",label="/iid-testing/permutation-test/",classification="control-class:Technical;priority:P0;family:System and Communications Protection,System and Communications Protocols"]
+[.requirement,type="pseudocode",label="/iid-testing/permutation-test/",classification="control-class:Technical;priority:P0;family:System and Communications Protection,System and Communications Protocols"]
 ====
 
 [align=left]
@@ -13,7 +13,7 @@ The organization develops, disseminates, and reviews/updates [_Assignment: organ
 . Formal, documented procedures to facilitate the implementation of the access control policy and associated access controls.
 
 
-[verification,type="pseudo-fortress"]
+[.verification,type="pseudo-fortress"]
 --
 [source,lang="DecideIID"]
 ----

@@ -1,7 +1,7 @@
 
 
 .Generic Structure for Permutation Testing
-[requirement,type="pseudocode",label="/iid-testing/permutation-test/"]
+[.requirement,type="pseudocode",label="/iid-testing/permutation-test/"]
 ====
 [description]
 --

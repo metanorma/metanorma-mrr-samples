@@ -2,7 +2,7 @@
 
 ==== General
 
-[requirement,type="text",label="/ss/584/2015/general/632"]
+[.requirement,type="text",label="/ss/584/2015/general/632"]
 ====
 
 The Cloud Service Provider's management and board of directors shall be responsible for the following requirements and audit procedures.
@@ -16,20 +16,20 @@ The Cloud Service Provider's management and board of directors shall be responsi
 
 ==== Level 1 requirements and audit procedures
 
-[requirement,type="text",label="/ss/584/2015/level/1"]
+[.requirement,type="text",label="/ss/584/2015/level/1"]
 ====
 
 [subject]#The Cloud Service Provider's management and board of directors#
 [obligation]#shall#
 
-[object]
+[.object]
 --
 . Managing information security risks related to people, process, technology and governance.
 . Oversight of the effective implementation of the technology controls.
 . Oversight of risk management practices.
 --
 
-[verification]
+[.verification]
 --
 . Determine that the responsibilities of management and board of directors in managing and overseeing information security risks are documented and communicated.
 . Inspect documents such as meeting minutes and committee charter to identify the participants involved in the meeting or committee, their respective job functions and the reporting relationship.
@@ -42,23 +42,23 @@ The Cloud Service Provider's management and board of directors shall be responsi
 
 ==== Level 2 requirements and audit procedures
 
-[requirement,type="text",label="/ss/584/2015/level/2",import="/ss/584/2015/level/1"]
+[.requirement,type="text",label="/ss/584/2015/level/2",import="/ss/584/2015/level/1"]
 ====
 The requirements and audit procedures are the same as those in Level 1.
 
-[verification,import="/ss/584/2015/level/1"]
+[.verification,import="/ss/584/2015/level/1"]
 --
 --
 ====
 
 ==== Level 3 requirements and audit procedures
 
-[requirement,type="text",label="/ss/584/2015/level/3",import="/ss/584/2015/level/2"]
+[.requirement,type="text",label="/ss/584/2015/level/3",import="/ss/584/2015/level/2"]
 ====
 
 The requirements are the same as those in Level 2.
 
-[verification,import="/ss/584/2015/level/2"]
+[.verification,import="/ss/584/2015/level/2"]
 --
 The audit procedures are those in Level 1 and the following:
 
@@ -68,11 +68,11 @@ The audit procedures are those in Level 1 and the following:
 
 
 
-[recommendation,label="/ogc/recommendation/wfs/2",subject="user"]
+[.recommendation,label="/ogc/recommendation/wfs/2",subject="user"]
 ====
 I recommend _this_.
 
-[object]
+[.object]
 --
 This is the object of the recommendation:
 
@@ -85,7 +85,7 @@ This is the object of the recommendation:
 
 As for the measurement targets,
 
-[measurement-target]
+[.measurement-target]
 --
 The measurement target shall be measured as:
 
@@ -95,7 +95,7 @@ r/1 = 0
 ++++
 --
 
-[verification]
+[.verification]
 --
 . We take a measurement
 . The measurement is consistent with the formula above
