@@ -1,10 +1,10 @@
 
 
 .Generic Structure for Permutation Testing
-[.requirement,type="pseudocode",label="/iid-testing/permutation-test/"]
+[.requirement,classification="type:pseudocode",label="/iid-testing/permutation-test/"]
 ====
 
-[.requirement,type="pseudocode",label="/iid-testing/permutation-test/1"]
+[.requirement,classification="type:pseudocode",label="/iid-testing/permutation-test/1"]
 =====
 [align=left]
 The information system includes components specifically designed to be the target of malicious attacks for the purpose of detecting, deflecting, and analyzing such attacks.
@@ -16,7 +16,7 @@ The organization develops, disseminates, and reviews/updates [_Assignment: organ
 =====
 
 
-[.requirement,type="pseudocode",label="/iid-testing/permutation-test/2"]
+[.requirement,classification="type:pseudocode",label="/iid-testing/permutation-test/2"]
 =====
 
 [.verification,type="pseudo-fortress"]

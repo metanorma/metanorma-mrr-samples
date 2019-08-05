@@ -1,9 +1,9 @@
 
 
-[.requirement,type="general",id="/req/geojson/content",obligation="shall"]
+[.requirement,classification="type:general",id="/req/geojson/content",obligation="shall"]
 ====
 
-[.requirement,type="http",obligation="shall"]
+[.requirement,classification="type:http",obligation="shall"]
 ======
 response:: 200
 media-type:: application/geo+json

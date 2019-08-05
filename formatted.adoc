@@ -1,7 +1,7 @@
 
 
 .Generic Structure for Permutation Testing
-[.requirement,type="pseudocode",label="/iid-testing/permutation-test/",classification="control-class:Technical;priority:P0;family:System and Communications Protection,System and Communications Protocols"]
+[.requirement,label="/iid-testing/permutation-test/",classification="type:pseudocode;control-class:Technical;priority:P0;family:System and Communications Protection,System and Communications Protocols"]
 ====
 
 [align=left]

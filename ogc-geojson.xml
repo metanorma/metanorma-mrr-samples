@@ -1,45 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <standard-document xmlns="http://riboseinc.com/isoxml">
-<bibdata type="article"> 
-   
-   
-   
-   
-  <language>en</language> 
-  <script>Latn</script> 
-  <status format="plain">published</status> 
-  <copyright> 
-    <from>2019</from> 
-  </copyright> 
-  <editorialgroup> 
-    <technical-committee/> 
-  </editorialgroup> 
+<bibdata type="standard">
+  
+  
+  
+  
+  <language>en</language>
+  <script>Latn</script>
+  <status>
+    <stage>published</stage>
+  </status>
+  <copyright>
+    <from>2019</from>
+  </copyright>
+  <ext>
+    <doctype>article</doctype>
+  </ext>
 </bibdata>
-<sections> 
-  <requirement id="/req/geojson/content"><requirement id="_d8965924-5ea7-43ec-ae13-6235c3fbaf72"><description><dl id="_310edb57-ad9c-42cc-95e9-e327b9420f87">    
-  <dt>response</dt>    
-  <dd>    
-    <p id="_b329e7ba-5153-4e21-94f5-2190fe5c02fa">200</p>    
-  </dd>    
-  <dt>media-type</dt>    
-  <dd>    
-    <p id="_b6af57d2-186e-40e1-9652-91e76e774bcc">application/geo+json</p>    
-  </dd>    
-</dl>   
-<p id="_dc6873a9-d287-4b82-912c-75648e1db977">Every <tt>200</tt>-response with the media type <tt>application/geo+json</tt> SHALL be</p>   
-<ul id="_90871a00-f875-4653-bf16-9a39c15340a4">    
-  <li>    
-    <p id="_08c3d63d-6532-41f6-a36c-030469010ade">a <link target="https://tools.ietf.org/html/rfc7946#section-3.3">GeoJSON FeatureCollection Object</link> for feature collections, and</p>    
-  </li>    
-  <li>    
-    <p id="_b64bf12d-5727-4c20-8f10-ca692b544816">a <link target="https://tools.ietf.org/html/rfc7946#section-3.2">GeoJSON Feature Object</link> for features.</p>    
-  </li>    
-</ul></description></requirement><description>  
-<p id="_36f42993-f451-4f93-a8d1-1acd067d1085">The links specified in the requirements <xref target="requirement:&quot;/req/core/fc-links&quot;"/> and   
-<xref target="requirement:&quot;/req/core/f-links&quot;"/> SHALL be added in a extension property   
-(foreign member) with the name <tt>links</tt>.</p>  
-<p id="_7e6c9db1-adfd-4bae-8110-869064759f14">The schema of all responses with the media type <tt>application/json</tt> SHALL   
-conform with the JSON Schema specified for the resource in the requirements class   
-<xref target="rc_core">WFS 3.0 Core</xref>.</p></description></requirement> 
+<sections>
+  <requirement id="_e9ebffa1-950b-4b06-bd19-be24f5dfbd9a" obligation="shall"><classification><tag>type</tag><value>general</value></classification><requirement id="_ce3e4982-ecc4-4c61-ba91-9b1b5c657f3b" obligation="shall"><classification><tag>type</tag><value>http</value></classification><description><dl id="_a35162d5-a35a-4815-bc81-930bd3efa44f">
+  <dt>response</dt>
+  <dd>
+    <p id="_16615930-b3ee-4a69-babc-a4ac0603e01d">200</p>
+  </dd>
+  <dt>media-type</dt>
+  <dd>
+    <p id="_dfe86be9-8e0b-4b95-aff9-c88bcf95bb73">application/geo+json</p>
+  </dd>
+</dl>
+<p id="_99095d3a-7b16-48c5-8e1c-77e0ddfe98a5">Every <tt>200</tt>-response with the media type <tt>application/geo+json</tt> SHALL be</p>
+<ul id="_7e9e0d5b-4838-4785-a533-45927739ff1b">
+  <li>
+    <p id="_45ba6f00-db90-4375-905d-6734b65bb28c">a <link target="https://tools.ietf.org/html/rfc7946#section-3.3">GeoJSON FeatureCollection Object</link> for feature collections, and</p>
+  </li>
+  <li>
+    <p id="_c0c1c1e4-10a6-4c25-a858-d804cfc56ecb">a <link target="https://tools.ietf.org/html/rfc7946#section-3.2">GeoJSON Feature Object</link> for features.</p>
+  </li>
+</ul></description></requirement><description>
+<p id="_8deee199-7828-48a5-b5ca-8ebd67314345">The links specified in the requirements <xref target="requirement:&quot;/req/core/fc-links&quot;"/> and
+<xref target="requirement:&quot;/req/core/f-links&quot;"/> SHALL be added in a extension property
+(foreign member) with the name <tt>links</tt>.</p>
+<p id="_8275e5c3-c515-47d9-b41c-336de57e92be">The schema of all responses with the media type <tt>application/json</tt> SHALL
+conform with the JSON Schema specified for the resource in the requirements class
+<xref target="rc_core">WFS 3.0 Core</xref>.</p></description></requirement>
 </sections>
 </standard-document>

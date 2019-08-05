@@ -1,63 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <standard-document xmlns="http://riboseinc.com/isoxml">
-<bibdata type="article"> 
-   
-   
-   
-   
-  <language>en</language> 
-  <script>Latn</script> 
-  <status format="plain">published</status> 
-  <copyright> 
-    <from>2019</from> 
-  </copyright> 
-  <editorialgroup> 
-    <technical-committee/> 
-  </editorialgroup> 
+<bibdata type="standard">
+  
+  
+  
+  
+  <language>en</language>
+  <script>Latn</script>
+  <status>
+    <stage>published</stage>
+  </status>
+  <copyright>
+    <from>2019</from>
+  </copyright>
+  <ext>
+    <doctype>article</doctype>
+  </ext>
 </bibdata>
-<sections> 
-  <requirement id="_2f2dae08-be24-44bf-ab15-6a0ee6310190"><label>/req/core/root-success</label><subject>endpoint</subject><description><p id="_1a5aa38d-7674-4649-9256-7322d4a339c9">A successful execution of the operation SHALL be reported as a response with a HTTP status code 200.</p>  
-</description><verification exclude="false"><sourcecode lang="CoreRoot" id="_f951ed72-94f5-42d7-b1a0-48215c3d9745">CoreRoot(success): HttpResponse   
-if (success)   
-  requirement(label: success-response)   
-end</sourcecode>   
+<sections>
+  <requirement id="_a8410844-4e85-40d0-8cf6-c251587c3a50" obligation="shall"><label>/req/core/root-success</label><subject>endpoint</subject><description><p id="_1143fb9b-8aef-43d5-8487-f981dd6a9232">A successful execution of the operation SHALL be reported as a response with a HTTP status code 200.</p>
+</description><verification exclude="false"><sourcecode lang="CoreRoot" id="_74ce1a54-e968-4b91-944c-e7ffde8f83a5">CoreRoot(success): HttpResponse
+if (success)
+  requirement(label: success-response)
+end</sourcecode>
 </verification>
-<import exclude="false"><sourcecode lang="CoreRoot" id="_b2974a49-cf4e-4702-a5a5-6100301c1d78">success-response()</sourcecode>   
-</import><description>  
-<p id="_b60c4afc-64a6-4dbf-a497-c8f32990cc21">The content of that response SHALL be based upon the provided OpenAPI 3.0 schema and include at least links to the following resources:</p>  
-<ul id="_a158adba-64b1-413f-9c5f-506c64ab1a9c">   
-  <li>   
-    <p id="_6c6b9e01-ccc1-4eb9-a09d-17c721907930"><tt>/api</tt> (relation type “service”)</p>   
-  </li>   
-  <li>   
-    <p id="_5e3dd218-5395-4d56-bdcd-8d3c2f6a2c68"><tt>/conformance</tt> (relation type “conformance”)</p>   
-  </li>   
-  <li>   
-    <p id="_d1d86056-127a-495e-9a3c-fe44e4f880c3"><tt>/collections</tt> (relation type “data”)</p>   
-  </li>   
-</ul>  
-</description><specification exclude="false" type="oapi30"><sourcecode lang="yaml" id="_05402095-48a3-4eca-bfd3-eef029d885fd">'/':   
-  get:   
-    responses:   
-      '200':   
-        content:   
-          application/json:   
-            schema:   
-              $ref: '#/components/schemas/root'   
-            properties:   
-              type: array   
-              items:   
-                $ref: '#/components/schemas/link'   
-              match:   
-                - href: '/api'   
-                  rel: service   
-                - href: '/conformance'   
-                  rel: conformance   
-                - href: '/collections'   
-                  rel: data   
-          text/html:   
-            schema:   
-              type: string</sourcecode>   
-</specification></requirement> 
+<import exclude="false"><sourcecode lang="CoreRoot" id="_a79d22bd-a15b-412a-a1d7-651c1820b58c">success-response()</sourcecode>
+</import><description>
+<p id="_3b86de5d-aa86-46a4-a6a8-e487fadccab0">The content of that response SHALL be based upon the provided OpenAPI 3.0 schema and include at least links to the following resources:</p>
+<ul id="_ad2dbd3a-c5b2-4c0a-8772-6e09cd20ef2e">
+  <li>
+    <p id="_f5111c22-186c-428b-9b2d-dc139a98e389"><tt>/api</tt> (relation type “service”)</p>
+  </li>
+  <li>
+    <p id="_e446fd1d-3446-4ad1-9909-8751772427a0"><tt>/conformance</tt> (relation type “conformance”)</p>
+  </li>
+  <li>
+    <p id="_08383f7c-e77c-4602-9c7e-9488e54c42f2"><tt>/collections</tt> (relation type “data”)</p>
+  </li>
+</ul>
+</description><specification exclude="false" type="oapi30"><sourcecode lang="yaml" id="_7fea6827-d45c-4d13-b2c2-0e466b706c71">'/':
+  get:
+    responses:
+      '200':
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/root'
+            properties:
+              type: array
+              items:
+                $ref: '#/components/schemas/link'
+              match:
+                - href: '/api'
+                  rel: service
+                - href: '/conformance'
+                  rel: conformance
+                - href: '/collections'
+                  rel: data
+          text/html:
+            schema:
+              type: string</sourcecode>
+</specification></requirement>
 </sections>
 </standard-document>

@@ -4,7 +4,7 @@ Author
 [[openapi.yaml]]
 === Generic OpenAPI definition
 
-[.requirement,type="openapi",label=/openapi/3.0/]
+[.requirement,classification="type:openapi",label=/openapi/3.0/]
 ====
 [.specification]
 --
